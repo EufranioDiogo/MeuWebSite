@@ -1,10 +1,10 @@
 /*Início Elemetos Slides*/
-var imageSlideList = ['../IMG/Slides/artificial-intelligence-blur-close-up-546819.jpg',
-    '../IMG/Slides/adult-app-developer-coding-1181244.jpg',
-    '../IMG/Slides/OBeneficiosDeAprenderAProgramar.png',
-    '../IMG/Slides/brain-icon-png-2529.png',
-    '../IMG/Slides/person-using-silver-macbook-pro-11814671.jpg',
-    '../IMG/Slides/close-up-code-coding-160107.jpg'
+var imageSlideList = ['IMG/Slides/artificial-intelligence-blur-close-up-546819.jpg',
+    'IMG/Slides/adult-app-developer-coding-1181244.jpg',
+    'IMG/Slides/OBeneficiosDeAprenderAProgramar.png',
+    'IMG/Slides/brain-icon-png-2529.png',
+    'IMG/Slides/person-using-silver-macbook-pro-11814671.jpg',
+    'IMG/Slides/close-up-code-coding-160107.jpg'
 ];
 
 /*var p = document.createElement('p')
@@ -35,16 +35,16 @@ function slideAction() {
 
 /*Inicio Elementos Area Actuação*/
 var imageAreaActuacao = [
-    ['../IMG/desk-doctor-health-48604.jpg',
-        '../IMG/children-class-classroom-1720186.jpg',
-        '../IMG/blur-cellphone-cellular-telephone-533446.jpg',
-        '../IMG/angry-artificial-artificial-intelligence-39349.jpg'
+    ['IMG/desk-doctor-health-48604.jpg',
+        'IMG/children-class-classroom-1720186.jpg',
+        'IMG/blur-cellphone-cellular-telephone-533446.jpg',
+        'IMG/angry-artificial-artificial-intelligence-39349.jpg'
     ],
 
-    ['../IMG/action-athletes-audience-1884574.jpg',
-        '../IMG/blur-close-up-device-442576.jpg',
-        '../IMG/photography-of-woman-listening-to-music-761963.jpg',
-        '../IMG/adolescent-beautiful-brunette-919436.jpg'
+    ['IMG/action-athletes-audience-1884574.jpg',
+        'IMG/blur-close-up-device-442576.jpg',
+        'IMG/photography-of-woman-listening-to-music-761963.jpg',
+        'IMG/adolescent-beautiful-brunette-919436.jpg'
     ]
 ]
 var description = [
