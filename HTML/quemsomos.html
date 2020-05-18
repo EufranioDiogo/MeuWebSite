@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/quemsomos.css">
+    <title>Quem Somos?</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <nav id="navMenu">
+            <div class="toggleMenu"><a href="index.html"><img id="imgLogoUijaCode" src="../IMG/codingWhite.svg" alt=""></a><img src="../IMG/menu.svg" alt="menuIcon"></div>
+            <ul id="listaDesordenada">
+                <a href="#"><img src="../IMG/coding.svg" alt="Logo da Uijia Programar"><p>Uija Code</p></a><!--
+                --><a href="index.html">
+                    <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
+                </a><!--
+                --><a href="primeirosPassos.html">
+                    <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Primeiros Passos</li>
+                </a><!--
+                --><a href="actividades.html">
+                    <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">Eventos de Programação</li>
+                </a><!--
+                --><a href="contactos.html">
+                    <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Contactos</li>
+                </a><!--
+                -->
+                <img id="languageLogoEnglish" onclick="languageEnglish()" class="languageLogo" src="../IMG/english.svg" alt="Idioma English">
+                <img id="languageLogoPortuguese" onclick="languagePortuguese()" class="languageLogo" src="../IMG/portuguese.svg" alt="Idioma Portuguese">
+            </ul>
+        </nav> 
+    </header>
+
+    <div id="divCabecalho">
+        <img src="../IMG/people-riding-bicycles-2361103.jpg" alt="">
+        <div id="divPreta"></div>
+        <p>Nós Somos a Uija Code, o Orgulho de Ser Angolano</p>
+    </div>
+    <div id="divConteudo">
+        <div id="conteudo1">
+            <p id="pAnoFundacao">2019</p>
+            <div>
+                <div>
+                    <img src="../IMG/me.jpg" onmouseover="showDescFundador()" onmouseout="hideDescFundador()" alt="">
+                    <p>Eufránio Diogo <br><strong>Fundador da Uija Code</strong></p>
+                </div>
+                <p id="descOrigemUijaCode">
+                    "Quando eu tive a primeira ideia da criação de uma organização que ensina-se programação em Angola, foi algo uau! e
+                    decidi entrar nesta, porque olhei a programação como uma forma de fuga de muitos caminhos ruins que a juventude
+                    angolana tem se perdido e sabendo que a programação já mudou a vida de milhares de pessoas, desta mesma forma pode,
+                    mudar o mundo de muitos jovens angolanos lhes provendo o possível futuro melhor!
+                </p>
+            </div>
+            </p>
+        </div>
+        <div id="conteudo2">
+            <h1>Uija Code</h1>
+            <p>A Uija Code é uma organização angolana com principal missão de incentivar e levar os jovens angolanos para o caminho da
+                programação, pôs de certa maneira cerca de metade da juventude angolana não sabe programar e muitas das vezes tem dificuldades
+                de poder ter acesso a um computador pessoal para fazer os seus a fazer, logo a Uija Code vem na vertente de procurar ajudar no
+                acesso a dispositiovos computacionais que possam ajudar no processo de aprendizagem e compartilhamento de informações sobre programação.
+            </p>
+        </div>
+    </div>
+
+
+    <footer id="footerRodape">
+        <div id="divRodape">
+            <div id="divLogoRodape">
+                <a href="index.html">
+                    <img src="../IMG/codingGray.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+            </div>
+            <div id="divRodapeSocialMidia">
+                <img id="facebookLogo" src="../IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="twitterLogo" src="../IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="instagramLogo" src="../IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="pinterestLogo" src="../IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
+            </div>
+            <ul id="divRodapeInfo">
+                <li id="divRodapeInfo1">
+                    <h3>Sobré-nos</h3>
+                        <h4><a href="#">Quem somos?</a></h4>
+                        <h4><a href="">Nosso Objectivo!</a></h4>
+                        <h4><a href="">Planos e Objectivos</a></h4>
+                </li>
+
+                <li id="divRodapeInfo2">
+                    <h3>Contactos</h3>
+                        <h4><a href="">Email: uijiacode@gmail.org</a></h4>
+                        <h4><a href="endereco.html">Endereço: 1º Maio, rua Ngola Kiluange</a></h4>
+                        <h4>Telefone: +244 921 611 793</h4>
+                </li>
+
+                <li id="divRodapeInfo3">
+                    <h3>Deseja Nós Ajudar?</h3>
+                        <h4><a href="">De a oportunidade a jovens angolanos!</a></h4>
+                        <h4><a href="">Diz nós o que devemos melhorar</a></h4>
+                        <h4>.</h4>
+                </li>
+                
+                <li id="divRodapeInfo4">
+                    <h3>Direitos</h3>
+                        <h4>CopyLeft Código Livre</h4>
+                        <h4><a href=""></a>Autor: Eufránio Diogo</h4>
+                        <h4>Ano: 2019</h4>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var descFundador = document.querySelector('#conteudo1 > div > div')
+
+        function showDescFundador() {
+            descFundador.style.transition = '1s'
+            descFundador.style.backgroundColor = '#201F4A';
+        }
+
+        function hideDescFundador() {
+            descFundador.style.transition = '1s'
+            descFundador.style.backgroundColor = '#ffffff';
+        }
+    </script>
+    <script src="../JS/rodape.js"></script>
+    <script src="../JS/overAndOutMenu.js"></script>
+</body>
+</html>

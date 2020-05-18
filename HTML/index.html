@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Aprenda a programar</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <nav id="navMenu">
+            <div class="toggleMenu"><a href="index.html"><img id="imgLogoUijaCode" src="../IMG/codingWhite.svg" alt=""></a><img src="../IMG/menu.svg" alt="menuIcon"></div>
+            <ul id="listaDesordenada">
+                <a href="#"><img src="../IMG/coding.svg" alt="Logo da Uijia Programar"><p>Uija Code</p></a><!--
+                --><a href="#">
+                    <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
+                </a><!--
+                --><a href="primeirosPassos.html">
+                    <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Primeiros Passos</li>
+                </a><!--
+                --><a href="actividades.html">
+                    <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">Eventos de Programação</li>
+                </a><!--
+                --><a href="contactos.html">
+                    <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Contactos</li>
+                </a><!--
+                -->
+                <img id="languageLogoEnglish" onclick="languageEnglish()" class="languageLogo" src="../IMG/english.svg" alt="Idioma English">
+                <img id="languageLogoPortuguese" onclick="languagePortuguese()" class="languageLogo" src="../IMG/portuguese.svg" alt="Idioma Portuguese">
+            </ul>
+        </nav> 
+    </header>
+    <div id="divSlide">
+        <img id="imgSlide" src="../IMG/Slides/close-up-code-coding-160107.jpg" alt="Imagem de um Homem com Oculos de Realidade virtual" />
+    </div>
+
+    <div id="contentorPrincipal">
+        <video id="videoAprenderProgramar" src="../Video/PorqueAprenderProgramar.webm" controls></video>
+        <div id="divAprenderProgramar">
+            <h1 id="titlePorqueProgramar">
+                Gostaria de aprender a Programar?</h1>
+            <span id="spanAprenderProgramar">
+                <p>Se você está iniciando em um curso de computação ou está aprendendo a programar 
+                por conta própria, deve estar interessado em aprender como são feitos aqueles 
+                jogos fantásticos ou aqueles sites que se diferenciam em meio a tantos outros 
+                por terem um design próprio, saiba que tudo isso é possível, mas com muito esforço, 
+                dedicação e persistência pois muitos “bugs” vão aparecer pelo caminho e, apesar 
+                desses obstáculos, as gambiarras devem prevalecer, pois no final seu código vai 
+                compilar e vai ter valido a pena todo seu esforço, pois você aprenderá com seus erros.</p>
+            </span> 
+        </div>
+        <div id="divAreasActuacao">
+            <h1 id="titleAreaActuacao">
+                Locais onde a Programação Actua!
+            </h1>
+            <div id="divAreaActucaoConteiner">
+                <div id="divEsquerdaAreaActuacao" class="divAvancarRecuar" onmouseover="overButton('divEsquerdaAreaActuacao')" onmouseout="outButton('divEsquerdaAreaActuacao')">
+                    <p>
+                        &lt; </p>
+                </div>
+                <div id="divAreaActuacao1" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao1', '1')" onmouseout="outAreaActuacao('divAreaActuacao1', '1')">
+                    <img id="img1AreaActuacao" src="../IMG/desk-doctor-health-48604.jpg" alt="">
+                    <h1>Saúde</h1>
+                    <div class="divAreaActuacaoText">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="divAreaActuacao2" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao2', '2')" onmouseout="outAreaActuacao('divAreaActuacao2', '2')">
+                    <img id="img2AreaActuacao" src="../IMG/children-class-classroom-1720186.jpg" alt="">
+                    <h1>Educação</h1>
+                    <div class="divAreaActuacaoText">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="divAreaActuacao3" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao3', '3')" onmouseout="outAreaActuacao('divAreaActuacao3', '3')">
+                    <img id="img3AreaActuacao" src="../IMG/blur-cellphone-cellular-telephone-533446.jpg" alt="">
+                    <h1>Mídias Sociais</h1>
+                    <div class="divAreaActuacaoText">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="divAreaActuacao4" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao4', '4')" onmouseout="outAreaActuacao('divAreaActuacao4', '4')">
+                    <img id="img4AreaActuacao" src="../IMG/angry-artificial-artificial-intelligence-39349.jpg" alt="">
+                    <h1>Ciência</h1>
+                    <div class="divAreaActuacaoText">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="divDireitaAreaActuacao" class="divAvancarRecuar" onmouseover="overButton('divDireitaAreaActuacao')" onmouseout="outButton('divDireitaAreaActuacao')">
+                    <p>&gt;</p>
+                </div>
+            </div>
+        </div>
+        <footer id="footerRodape">
+            <div id="divRodape">
+                <div id="divLogoRodape">
+                    <a href="#">
+                        <img src="../IMG/codingGray.svg" alt="Logo da Uijia Programar">
+                        <p>Uija Code</p>
+                    </a>
+                </div>
+                <div id="divRodapeSocialMidia">
+                    <img id="facebookLogo" src="../IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
+                    <img id="twitterLogo" src="../IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
+                    <img id="instagramLogo" src="../IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
+                    <img id="pinterestLogo" src="../IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
+                </div>
+                <ul id="divRodapeInfo">
+                    <li id="divRodapeInfo1">
+                        <h3>Sobré-nos</h3>
+                            <h4><a href="quemsomos.html">Quem somos?</a></h4>
+                            <h4><a href="">Nosso Objectivo!</a></h4>
+                            <h4><a href="">Planos e Objectivos</a></h4>
+                    </li>
+
+                    <li id="divRodapeInfo2">
+                        <h3>Contactos</h3>
+                            <h4><a href="">Email: uijiacode@gmail.org</a></h4>
+                            <h4><a href="endereco.html">Endereço: 1º Maio, rua Ngola Kiluange</a></h4>
+                            <h4>Telefone: +244 921 611 793</h4>
+                    </li>
+
+                    <li id="divRodapeInfo3">
+                        <h3>Deseja Nós Ajudar?</h3>
+                            <h4><a href="">De a oportunidade a jovens angolanos!</a></h4>
+                            <h4><a href="">Diz nós o que devemos melhorar</a></h4>
+                            <h4>.</h4>
+                    </li>
+                    
+                    <li id="divRodapeInfo4">
+                        <h3>Direitos</h3>
+                            <h4>CopyLeft Código Livre</h4>
+                            <h4><a href=""></a>Autor: Eufránio Diogo</h4>
+                            <h4>Ano: 2019</h4>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="../jquery.js"></script>
+        <script src="../JS/index.js"></script>
+        <script src="../JS/language.js"></script>
+        <script src="../JS/rodape.js"></script>
+        <script src="../JS/overAndOutMenu.js"></script>
+</body>
+
+</html>
+<!--<div id="divPlaceHolder" class="socialMidia">
+                <img src="../IMG/Icons/placeholder.png" alt="" class="imgSocialMidia">
+
+            </div>-->

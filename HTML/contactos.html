@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/contactos.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <header id="cabecalho">
+            <nav id="navMenu">
+                <div class="toggleMenu"><a href="index.html"><img id="imgLogoUijaCode" src="../IMG/codingWhite.svg" alt=""></a><img src="../IMG/menu.svg" alt="menuIcon"></div>
+                <ul id="listaDesordenada">
+                    <a href="index.html"><img src="../IMG/coding.svg" alt="Logo da Uija Programar"><p>Uija Code</p></a>
+                    <a href="index.html">
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
+                    </a>
+                    <a href="primeirosPassos.html">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Primeiros Passos</li>
+                    </a> 
+                    <a href="actividades.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">Eventos de Programação</li>
+                    </a>
+                    <a href="#">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Contactos</li>
+                    </a>
+                </ul>
+            </nav> 
+        </header>
+    <section id="sectionPrincipal">
+        <h1 id="h1titulo">Contactos</h1>
+        <form action="index.html" method="post" id="formulario">
+            <input class="inputFormat" placeholder="Nome e Sobrenome" maxlength="100" type="text" name="inputNome" id="inputNome"><br>
+            <input class="inputFormat" placeholder="Email" type="email" name="inputEmail" id="inputEmail">
+            <textarea form="formulario" name="inputAssunto" class="inputFormat" cols="30"  rows="12"  placeholder="Digite aqui o que pretende dizer!" maxlength="612" id="inputAssunto" spellcheck="true"></textarea>
+
+
+            <button class="buttonClass" id="buttonLimpar" type="button" onclick="limparCampos()">Limpar</button>
+            <button class="buttonClass" id="buttonVoltar">Voltar</button>
+            <button class="buttonClass" id="buttonEnviar" onclick="enviarDados()" type="button">Enviar</button>
+        </form>
+    </section>
+    <footer id="footerRodape">
+        <div id="divRodape">
+            <div id="divLogoRodape">
+                <a href="#">
+                    <img src="../IMG/codingGray.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+            </div>
+            <div id="divRodapeSocialMidia">
+                <img id="facebookLogo" src="../IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="twitterLogo" src="../IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="instagramLogo" src="../IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="pinterestLogo" src="../IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
+            </div>
+            <ul id="divRodapeInfo">
+                <li id="divRodapeInfo1">
+                    <h3>Sobré-nos</h3>
+                        <h4>Quem somos?</h4>
+                        <h4>Nosso Objectivo!</h4>
+                        <h4>Planos e Objectivos</h4>
+                </li>
+
+                <li id="divRodapeInfo2">
+                    <h3>Contactos</h3>
+                        <h4>Email: uijiacode@gmail.org</h4>
+                        <h4>Endereço: 1º Maio, rua Ngola Kiluange</h4>
+                        <h4>.</h4>
+                </li>
+
+                <li id="divRodapeInfo3">
+                    <h3>Deseja Nós Ajudar?</h3>
+                        <h4>De a oportunidade a jovens angolanos</h4>
+                        <h4>Diz nós o que devemos melhorar</h4>
+                        <h4>.</h4>
+                </li>
+                
+                <li id="divRodapeInfo4">
+                    <h3>Direitos</h3>
+                        <h4>CopyLeft Código Livre</h4>
+                        <h4>Autor: Eufránio Diogo</h4>
+                        <h4>.</h4>
+                </li>
+            </ul>
+        </div>
+    </footer> 
+    <a href="http://www.freepik.com" target="_blank">Designed by Freepik</a>
+    <script src="../JS/jquery.js"></script>
+    <script src="../JS/contactos.js"></script>
+    <script src="../JS/rodape.js"></script>
+    <script src="../JS/overAndOutMenu.js"></script>
+</body>
+</html> 

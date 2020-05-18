@@ -1,0 +1,393 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Font/Roboto-Light.ttf)
+}
+nav ul {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: white;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+    text-align: center;
+}
+nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+nav ul a img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5.5%;
+    cursor: pointer;
+}
+nav ul a p {
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #2ea6d2;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding: 10px; 
+    padding-left: 35px;
+    margin-left: 12px;
+    left: 5%;
+    text-indent: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: block !important;
+}
+nav ul a li {
+    height: 20px;
+    text-align: center;
+    color: #333;
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 15px; 
+}
+#divIdentifier {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 45px;    
+    background-color: #2ea6d2;
+    text-align: center;
+    font-family: Roboto, Helvetica, Arial,sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 10px 0 0 0;
+}
+#divMainConteiner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+#divMainConteiner #divMessages {
+    width: 28%;
+    height: 450px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    box-shadow: 1px 2px 8px rgba(30, 30, 30, 0.2);
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#divMainConteiner #divMessages h1 {
+    font-family: Roboto, Helvetica, Arial,sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 5px 0px;
+    color: #fff;
+    background-color: #2ea6d2;
+    top: 0;
+    left: 0%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#divMainConteiner #divMessages #divMessagesToRead {
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    bottom: 0;
+    left: 0%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: absolute;
+} 
+
+#divMainConteiner #divMessages #divMessagesToRead .divParticularMessage{
+    width: 92.5%;
+    height: 22.5%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    position: relative;
+    border-radius: 6px;
+    box-shadow: -1px 0px 4px rgba(30, 30, 30, 0.3);
+}
+
+#divMainConteiner #divMessages #divMessagesToRead .divParticularMessage p{
+    padding: 2px 0px;
+    margin-left: 10px;
+}
+#divMainConteiner #divMessages #divMessagesToRead .divParticularMessage span{
+    width: 92%;
+    height: 50px;
+    overflow-y: auto;
+    background-color: #fafafa;
+    position: absolute;
+    border-radius: 2px;
+    padding: 1px 3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#divMainConteiner #divMessages #divMessagesToRead .divParticularMessage span p{
+    margin: 0;
+    width: 99%;
+    height: 100%;
+}
+#divDisplayMessage {
+    width: 69%;
+    height: 550px;
+    top: 2%;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    background-color: #fff;
+}
+#divDisplayMessage #divDisplayMessageHeader {
+    width: 98%;
+    height: 102px;
+    top: 1.5%;
+    position: absolute;
+    left: 50%;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    transform: translateX(-50%);
+}
+#divDisplayMessage #divDisplayMessageHeader p {
+    width: 98.5%;
+    height: 22px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    padding: 4px 0px 2px 10px;
+    margin-top: 5px;
+    position: absolute;
+}
+#divDisplayMessage #divDisplayMessageHeader strong {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 4px 0px 2px 10px;
+    margin-top: 5px;
+}
+#divDisplayMessage #divDisplayMessageHeader p:nth-child(2) {
+    margin-top: 38px;
+}
+#divDisplayMessage #divDisplayMessageHeader p:nth-child(3) {
+    margin-top: 71px;
+}
+#divDisplayMessage #divDisplayMessageHeader p input{
+    height: 100%;
+    width: 91.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: transparent;
+}
+#divDisplayMessage #divDisplayMessageHeader p input:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+#divDisplayMessageInputText {
+    width: 98%;
+    height: 350px;
+    background-color: #fff;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#messageField {
+    width: 58.5%;
+    height: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    resize: none;
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    border-left: 1px solid rgb(206, 206, 206);;
+    right: 0;
+}
+#messageSended {
+    width: 38.5%;
+    height: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    resize: none;
+    border: none
+}
+#messageField:focus {
+    outline: none !important;
+}
+#divDisplayMessageBottom {
+    position: absolute;
+    bottom: 1%;
+    height: 60px;
+    width: 100%;
+}
+#divDisplayMessageBottom .buttonClass {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    border: none;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 20px ;
+    color: #fff;
+}
+#button1 {
+    right: 27.4% !important;
+    background-color: #f8a813;
+}
+#button2 {
+    right: 14.2% !important;
+    background-color: #ec1a36;
+}
+#button3 {
+    right: 1% !important;
+    background-color: #2ea6d2;
+}
+footer#footerRodape {
+    background-color: #2ea6d2;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+    margin-top: 1.5%;
+}
+#divRodape {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #1e6e96;
+    alt: 'Negócio vetor criado por freepik - br.freepik.com';
+    background-image: url(../IMG/2968383.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 200px;
+    background-position-x: 250px;
+    border-top: 5px solid #2ea6d2;
+}
+#divRodape #divRodapeSocialMidia {
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 2%;
+    /*right: 7.7%;*/
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+#divRodape #divRodapeSocialMidia img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#divRodape #divRodapeSocialMidia #direitosParagrafo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#divLogoRodape {
+    position: absolute;
+    top: 2%;
+    left: 5.5%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+#divLogoRodape a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#divLogoRodape img {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+}
+#divLogoRodape a p {
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    color: #575858;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 6px 0 0 10px;
+    padding: 0;
+    padding: 0px 0px 0px 50px;
+    text-indent: 0;
+    line-height: 1.2;
+}
+#divRodapeInfo {
+    width: 87%;
+    height: 75%;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 65%;
+    left: 5.2%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+#divRodapeInfo li {
+    width: 235px;
+    height: 68;
+    display: inline-block;
+    top: 0;
+    margin-left: 5px;
+    padding: 5px;
+    border-left: 1px solid #555;;
+}
+#divRodapeInfo li h3 {
+    padding: 2px 0px;
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #001016;
+}
+#divRodapeInfo li h4 {
+    font-size: 13px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #00161f;
+    margin-left: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+#divAreasActuacao {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}

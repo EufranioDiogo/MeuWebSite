@@ -1,0 +1,248 @@
+header {
+    position: fixed;
+    z-index: 2;
+}
+
+nav ul {
+    background: white;
+    list-style: none;
+    width: 1000%;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+
+nav ul a li {
+    cursor: default;
+    height: 20px;
+    text-align: center;
+    color: #333;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px 15px;
+} 
+nav ul a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.bigImg{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    
+}
+div.bigImg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    size: 100%;
+}
+div#bigImg1 {
+    top: 6.5%;
+}
+div#bigImg2 {
+    top: 225%;
+}
+
+div.divContentorVideos {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 102%;
+}
+div.divContentorVideos .divConteiner {
+    width: 20%;
+    height: 95%;
+    background-color: white;
+    position: absolute;
+    top: 2.5%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px #333;
+}
+div.divContentorVideos .divConteiner img {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+div.divContentorVideos .divConteiner div {
+    width: 100%;
+    height: 25%;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
+div.divContentorVideos .divConteiner div h1{
+    width: 96%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    color: #222;
+    padding: 5px 5px 0 5px;
+}
+div.divContentorVideos .divConteiner div p{
+    width: 96%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    color: #222;
+    padding: 5px 5px 0 5px;
+    overflow-y: auto;
+}
+
+div.divContentorVideos .divConteiner#conteiner1 {
+    left: 17%;
+}
+div.divContentorVideos .divConteiner#conteiner2 {
+    left: 40%;
+}
+div.divContentorVideos .divConteiner#conteiner3 {
+    left: 63%;
+}
+video#videoPrincipal {
+    position: absolute;
+    height: 450px;
+    border-radius: 5px;
+    size: 100%;
+    background-size: 100%;
+    top: 152%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    box-shadow: 1px 2px 6px #333;
+    text-align: center;
+    line-height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer#footerRodape {
+    background-color: #2ea6d2;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+    margin-top: 6.5%;
+}
+#divRodape {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #1e6e96;
+    alt: 'Negócio vetor criado por freepik - br.freepik.com';
+    background-image: url(../IMG/2968383.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 200px;
+    background-position-x: 250px;
+    border-top: 10px solid #575858;
+}
+#divRodape #divRodapeSocialMidia {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#divRodape #divRodapeSocialMidia img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#divRodape #divRodapeSocialMidia #direitosParagrafo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#divLogoRodape {
+    position: absolute;
+    top: 2%;
+    left: 5.5%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+#divLogoRodape a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#divLogoRodape img {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+}
+#divLogoRodape a p {
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    color: #575858;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 6px 0 0 10px;
+    padding: 0;
+    padding: 0px 0px 0px 50px;
+    text-indent: 0;
+    line-height: 1.2;
+}
+#divRodapeInfo {
+    width: 87%;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 50%;
+    left: 5.5%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+#divRodapeInfo li {
+    width: 235px;
+    height: 68;
+    display: inline-block;
+    top: 0;
+    margin-left: 5px;
+    padding: 5px;
+    border-left: 1px solid #555;;
+}
+#divRodapeInfo li h3 {
+    padding: 2px 0px;
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #001016;
+}
+#divRodapeInfo li h4 {
+    font-size: 13px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #00161f;
+    margin-left: 10px;
+    padding: 1px;
+}
