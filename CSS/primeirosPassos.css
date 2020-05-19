@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }    
 @media only screen and (max-device-width: 1750px) {
-    #li2 {
+    #li3 {
         background-color: #2ea6d2;
         color: white;
     }
