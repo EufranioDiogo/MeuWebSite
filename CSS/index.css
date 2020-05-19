@@ -3,6 +3,10 @@
     src: url(Font/Roboto-Light.ttf)
 }
 @media only screen and (max-device-width: 1750px) {
+    #li1 {
+        background-color: #2ea6d2;
+        color: white;
+    } 
     div#divSlide {
         margin-top: 50px ;
         width: 100%;

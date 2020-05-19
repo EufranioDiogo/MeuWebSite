@@ -57,10 +57,6 @@ nav ul a li {
     font-size: 15px;
     padding: 10px 15px; 
 }
-#li1 {
-    background-color: #2ea6d2;
-    color: white;
-} 
 
 .toggleMenu {
     position: fixed;
