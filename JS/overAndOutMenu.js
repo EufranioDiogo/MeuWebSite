@@ -1,4 +1,4 @@
-var itemActivo = 1;
+var itemActivo = 0;
 
 function verificarActivo() {
     var div = document.getElementById('listaDesordenada');
@@ -6,6 +6,7 @@ function verificarActivo() {
 
     for(; itemActivo < a.length; itemActivo++) {
         if(a[itemActivo].getAttribute('href') == '#') {
+            itemActivo += 1
             break;
         }
     }
