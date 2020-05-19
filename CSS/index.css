@@ -1,42 +1,32 @@
 @font-face {
     font-family: Roboto;
-    src: url(../Font/Roboto-Light.ttf)
+    src: url(Font/Roboto-Light.ttf)
 }
 @media only screen and (max-device-width: 1750px) {
-    nav ul {
-        position: fixed;
+    #divMenu{
+        width: 100%;
+        height: 41px;
+        border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+        background: white;
         z-index: 2;
         top: 0;
         left: 0;
-        background: white;
+        position: fixed;
+    }
+    nav ul {
         list-style: none;
-        width: 100%;
-        border-bottom: 1px solid rgba(221, 221, 221, 0.5);
-        text-align: center;
         display: block;
+        right: 5.5%;
+        position: absolute;
     }
     nav ul a {
         text-decoration: none;
         display: inline-block;
-        left: 0;
         padding: 0;
         margin: 0;
         cursor: pointer;
     }
-    .languageLogo {
-        position: absolute;
-        right: 10.5%;
-        width: 32px;
-        height: 32px;
-        top: 50%;
-        border-radius: 10px;
-        transform: translateY(-50%);
-        cursor: pointer;
-    }
-    #languageLogoPortuguese {
-        right: 13.5%;
-    }
-    nav ul a img{
+    #divMenu a img{
         width: 32px;
         height: 32px;
         position: absolute;
@@ -45,7 +35,7 @@
         left: 5.5%;
         cursor: pointer;
     }
-    nav ul a p {
+    #divMenu a p {
         font-size: 20px;
         font-family: Roboto,Arial, Helvetica, sans-serif;
         font-weight: lighter;
@@ -108,14 +98,23 @@
         transform: translateY(-50%);
     }
     div#divSlide {
-        margin-top: 33px ;
+        margin-top: 50px ;
         width: 100%;
-        height: 600px;
+        height: 445px;
         position: relative;
+        background: url('../IMG/silver-macbook-on-white-table-4268520.jpg');
+        background-position-y: -100px;
+        background-repeat: no-repeat;
+        background-position-x: 74px;
+        background-size: 1200px;
     }
-    div#divSlide img {
-        width: 100%;
-        height: 100%;
+    #imgPC{
+        position: absolute;
+        right: 5.5%;
+        width: 75%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -80%);
     }
     div#contentorPrincipal {
         position: relative; 
@@ -124,24 +123,31 @@
         height: auto;
     }
     #videoAprenderProgramar {
-        position: relative;
-        left: 45.5%;
-        width: 44%;
-        margin-bottom: 2%;
-        margin-top: 3.5%;
+        position: absolute;
+        width: 700px;
+        height: 490px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -88%);
+        background-size: 100%;
+        border: 0;
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        background-size: cover;
     }
     #divAprenderProgramar {
-        height: 250px;
-        width: 39%;
-        position: absolute;
-        left: 4.5%;
+        height: 1000px;
+        width: 88%;
+        position: relative;
+        left: 5.5%;
         top: 3.5%;
+        padding: 20px 10px;
     }
     h1 {
         font-family: Roboto ,Arial,'Open Sans', 'Helvetica Nueue', sans-serif;
         color: #505150;
-        font-size: 24px;
-        font-weight: bold;
+        font-size: 40px;
+        font-weight: 1;
         border-bottom: 1px thin #FF9700;
     }
     h1#titlePorqueProgramar {

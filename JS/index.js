@@ -1,11 +1,4 @@
 /*Início Elemetos Slides*/
-var imageSlideList = ['IMG/Slides/artificial-intelligence-blur-close-up-546819.jpg',
-    'IMG/Slides/adult-app-developer-coding-1181244.jpg',
-    'IMG/Slides/OBeneficiosDeAprenderAProgramar.png',
-    'IMG/Slides/brain-icon-png-2529.png',
-    'IMG/Slides/person-using-silver-macbook-pro-11814671.jpg',
-    'IMG/Slides/close-up-code-coding-160107.jpg'
-];
 
 /*var p = document.createElement('p')
 p.style.position = 'absolute';
@@ -21,17 +14,6 @@ p.innerText = 'O mundo está a Mudar'*/
 var imageSlideIndex = 0;
 var imageSlideElement = document.getElementById('imgSlide');
 /* Fim Elementos Slides*/
-
-function slideAction() {
-    imageSlideIndex = imageSlideIndex == 5 ? 0 : imageSlideIndex + 1;
-    $('#imgSlide').fadeOut(555, function() {
-        $('#imgSlide').fadeIn(500);
-        imageSlideElement.setAttribute('src', imageSlideList[imageSlideIndex]);
-        /*if(imageSlideIndex == 4) {
-            document.querySelector('#divSlide').appendChild(p);
-        }*/
-    });
-}
 
 /*Inicio Elementos Area Actuação*/
 var imageAreaActuacao = [
