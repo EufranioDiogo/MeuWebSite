@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Endereço</title>
+    <link rel="stylesheet" href="../CSS/endereco.css">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <nav id="navMenu">
+            <div class="toggleMenu"><a href="../index.html"><img id="imgLogoUijaCode" src="../IMG/codingWhite.svg" alt=""></a><img src="../IMG/menu.svg" alt="menuIcon"></div>
+            <div id="divMenu">
+                <a href="../index.html"><img src="../IMG/coding.svg" alt="Logo da Uijia Programar"><p>Uija Code</p></a><!--
+                        -->
+                <ul id="listaDesordenada">
+                    <a href="#"><li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
+                    </a><!--
+                    --><a href="HTML/primeirosPassos.html">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Posts</li>
+                    </a><!--
+                    --><a href="cursos.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
+                    </a><!--
+                    --><a href="HTML/quemsomos.html">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Quem somos?</li>
+                    </a><!--
+                    -->
+                </ul>
+            </div>
+        </nav> 
+    </header>
+    <div id="divLocalizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.23656783645!2d13.279691914398532!3d-8.857554693189435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f14c3ecde783%3A0x25bc7ad1692d2f9b!2sUniversidade%20Cat%C3%B3lica%20de%20Angola!5e0!3m2!1spt-PT!2sao!4v1575064012987!5m2!1spt-PT!2sao" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <p>Mapa Feito pela Google</p>
+    </div>
+    <footer id="footerRodape">
+        <div id="divRodape">
+            <div id="divLogoRodape">
+                <a href="../index.html">
+                    <img src="../IMG/codingGray.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+            </div>
+            <div id="divRodapeSocialMidia">
+                <img id="facebookLogo" src="../IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="twitterLogo" src="../IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="instagramLogo" src="../IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
+                <img id="pinterestLogo" src="../IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
+            </div>
+            <ul id="divRodapeInfo">
+                <li id="divRodapeInfo1">
+                    <h3>Sobré-nos</h3>
+                        <h4><a href="quemsomos.html">Quem somos?</a></h4>
+                        <h4><a href="">Nosso Objectivo!</a></h4>
+                        <h4><a href="">Planos e Objectivos</a></h4>
+                </li>
+
+                <li id="divRodapeInfo2">
+                    <h3>Contactos</h3>
+                        <h4><a href="">Email: uijiacode@gmail.org</a></h4>
+                        <h4><a href="#">Endereço: 1º Maio, rua Ngola Kiluange</a></h4>
+                        <h4>Telefone: +244 921 611 793</h4>
+                </li>
+
+                <li id="divRodapeInfo3">
+                    <h3>Deseja Nós Ajudar?</h3>
+                        <h4><a href="">De a oportunidade a jovens angolanos!</a></h4>
+                        <h4><a href="">Diz nós o que devemos melhorar</a></h4>
+                        <h4>.</h4>
+                </li>
+                
+                <li id="divRodapeInfo4">
+                    <h3>Direitos</h3>
+                        <h4>CopyLeft Código Livre</h4>
+                        <h4><a href=""></a>Autor: Eufránio Diogo</h4>
+                        <h4>Ano: 2019</h4>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../JS/rodape.js"></script>
+    <script src="../JS/overAndOutMenu.js"></script>
+</body>
+</html>

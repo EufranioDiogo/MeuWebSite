@@ -7,138 +7,288 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/universal.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <title>Aprenda a programar</title>
 </head>
 
 <body>
     <header id="cabecalho">
         <nav id="navMenu">
-            <div class="toggleMenu"><a href="index.html"><img id="imgLogoUijaCode" src="IMG/codingWhite.svg" alt=""></a><img src="IMG/menu.svg" alt="menuIcon"></div>
-            <ul id="listaDesordenada">
-                <a href="#"><img src="IMG/coding.svg" alt="Logo da Uijia Programar"><p>Uija Code</p></a><!--
-                --><a href="#">
-                    <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
-                </a><!--
-                --><a href="HTML/primeirosPassos.html">
-                    <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Primeiros Passos</li>
-                </a><!--
-                --><a href="HTML/actividades.html">
-                    <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">Eventos de Programação</li>
-                </a><!--
-                --><a href="HTML/contactos.html">
-                    <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Contactos</li>
-                </a><!--
-                -->
-                <img id="languageLogoEnglish" onclick="languageEnglish()" class="languageLogo" src="IMG/english.svg" alt="Idioma English">
-                <img id="languageLogoPortuguese" onclick="languagePortuguese()" class="languageLogo" src="IMG/portuguese.svg" alt="Idioma Portuguese">
-            </ul>
-        </nav> 
-    </header>
-    <div id="divSlide">
-        <img id="imgSlide" src="IMG/Slides/close-up-code-coding-160107.jpg" alt="Imagem de um Homem com Oculos de Realidade virtual" />
-    </div>
-
-    <div id="contentorPrincipal">
-        <video id="videoAprenderProgramar" src="Video/PorqueAprenderProgramar.webm" controls></video>
-        <div id="divAprenderProgramar">
-            <h1 id="titlePorqueProgramar">
-                Gostaria de aprender a Programar?</h1>
-            <span id="spanAprenderProgramar">
-                <p>Se você está iniciando em um curso de computação ou está aprendendo a programar 
-                por conta própria, deve estar interessado em aprender como são feitos aqueles 
-                jogos fantásticos ou aqueles sites que se diferenciam em meio a tantos outros 
-                por terem um design próprio, saiba que tudo isso é possível, mas com muito esforço, 
-                dedicação e persistência pois muitos “bugs” vão aparecer pelo caminho e, apesar 
-                desses obstáculos, as gambiarras devem prevalecer, pois no final seu código vai 
-                compilar e vai ter valido a pena todo seu esforço, pois você aprenderá com seus erros.</p>
-            </span> 
-        </div>
-        <div id="divAreasActuacao">
-            <h1 id="titleAreaActuacao">
-                Locais onde a Programação Actua!
-            </h1>
-            <div id="divAreaActucaoConteiner">
-                <div id="divEsquerdaAreaActuacao" class="divAvancarRecuar" onmouseover="overButton('divEsquerdaAreaActuacao')" onmouseout="outButton('divEsquerdaAreaActuacao')">
-                    <p>
-                        &lt; </p>
-                </div>
-                <div id="divAreaActuacao1" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao1', '1')" onmouseout="outAreaActuacao('divAreaActuacao1', '1')">
-                    <img id="img1AreaActuacao" src="IMG/desk-doctor-health-48604.jpg" alt="">
-                    <h1>Saúde</h1>
-                    <div class="divAreaActuacaoText">
-                        <p></p>
-                    </div>
-                </div>
-                <div id="divAreaActuacao2" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao2', '2')" onmouseout="outAreaActuacao('divAreaActuacao2', '2')">
-                    <img id="img2AreaActuacao" src="IMG/children-class-classroom-1720186.jpg" alt="">
-                    <h1>Educação</h1>
-                    <div class="divAreaActuacaoText">
-                        <p></p>
-                    </div>
-                </div>
-                <div id="divAreaActuacao3" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao3', '3')" onmouseout="outAreaActuacao('divAreaActuacao3', '3')">
-                    <img id="img3AreaActuacao" src="IMG/blur-cellphone-cellular-telephone-533446.jpg" alt="">
-                    <h1>Mídias Sociais</h1>
-                    <div class="divAreaActuacaoText">
-                        <p></p>
-                    </div>
-                </div>
-                <div id="divAreaActuacao4" class="divAreaActuacao" onmouseover="overAreaActuacao('divAreaActuacao4', '4')" onmouseout="outAreaActuacao('divAreaActuacao4', '4')">
-                    <img id="img4AreaActuacao" src="IMG/angry-artificial-artificial-intelligence-39349.jpg" alt="">
-                    <h1>Ciência</h1>
-                    <div class="divAreaActuacaoText">
-                        <p></p>
-                    </div>
-                </div>
-                <div id="divDireitaAreaActuacao" class="divAvancarRecuar" onmouseover="overButton('divDireitaAreaActuacao')" onmouseout="outButton('divDireitaAreaActuacao')">
-                    <p>&gt;</p>
-                </div>
-            </div>
-        </div>
-        <footer id="footerRodape">
-            <div id="divRodape">
-                <div id="divLogoRodape">
+            <div class="toggleMenu"><a href="index.html"><img id="imgLogoUijaCode" src="IMG/codingWhite.svg"
+                        alt=""></a><img src="IMG/menu.svg" alt="menuIcon"></div>
+            <div id="divMenu">
+                <a href="#"><img src="IMG/coding.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+                <!--
+                        -->
+                <ul id="listaDesordenada">
                     <a href="#">
-                        <img src="IMG/codingGray.svg" alt="Logo da Uijia Programar">
-                        <p>Uija Code</p>
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
+                            Inicio</li>
                     </a>
-                </div>
-                <div id="divRodapeSocialMidia">
-                    <img id="facebookLogo" src="IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
-                    <img id="twitterLogo" src="IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
-                    <img id="instagramLogo" src="IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
-                    <img id="pinterestLogo" src="IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
-                </div>
-                <ul id="divRodapeInfo">
-                    <li id="divRodapeInfo1">
-                        <h3>Sobré-nos</h3>
-                            <h4><a href="quemsomos.html">Quem somos?</a></h4>
-                            <h4><a href="">Nosso Objectivo!</a></h4>
-                            <h4><a href="">Planos e Objectivos</a></h4>
-                    </li>
-
-                    <li id="divRodapeInfo2">
-                        <h3>Contactos</h3>
-                            <h4><a href="">Email: uijiacode@gmail.org</a></h4>
-                            <h4><a href="endereco.html">Endereço: 1º Maio, rua Ngola Kiluange</a></h4>
-                            <h4>Telefone: +244 921 611 793</h4>
-                    </li>
-
-                    <li id="divRodapeInfo3">
-                        <h3>Deseja Nós Ajudar?</h3>
-                            <h4><a href="">De a oportunidade a jovens angolanos!</a></h4>
-                            <h4><a href="">Diz nós o que devemos melhorar</a></h4>
-                            <h4>.</h4>
-                    </li>
-                    
-                    <li id="divRodapeInfo4">
-                        <h3>Direitos</h3>
-                            <h4>CopyLeft Código Livre</h4>
-                            <h4><a href=""></a>Autor: Eufránio Diogo</h4>
-                            <h4>Ano: 2019</h4>
-                    </li>
+                    <!--
+                    --><a href="HTML/posts.html">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">
+                            Posts</li>
+                    </a>
+                    <!--
+                    --><a href="HTML/cursos.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
+                    </a>
+                    <!--
+                    --><a href="HTML/quemsomos.html">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">
+                            Quem somos</li>
+                    </a>
+                    <!--
+                    -->
                 </ul>
             </div>
+        </nav>
+    </header>
+    <div id="divSlide">
+        <div>
+            <h1 id="tituloCover">PROGRAMAÇÃO MUDANDO VIDAS</h1>
+        </div>
+    </div>
+    <div id="contentorPrincipal">
+        <div id="divAprenderProgramar">
+            <!--<img id="imgPC" src="IMG/index.png" />-->
+            <video id="videoAprenderProgramar" src="Video/PrimeirosPassosProgramacao.mp4" controls></video>
+            <div id="divConteudoPrincipal">
+                <h1 id="h1PorqueAprenderProgramar">Porque aprender devo programar?</h1>
+                <p>Quase tudo hoje senão tudo ao nosso redor é programado, desde o nosso smartphones, TV inteligente,
+                    casas e até carros hoje são programados. E isso de certa forma nos leva para um nível uau! de
+                    conhecimento que saber programar não chegaria nem perto de ser tedioso e sim um processo de
+                    despertar o seu eu mais criativo.
+                </p>
+                <h2 id="h2VantagensAprenderProgramar">Vantagens de Aprender a Programar</h2>
+                <ul>
+                    <li>Aumenta o seu raciocínio lógico.</li>
+                    <li>Melhora a habilidade de resolução de problemas de várias áreas.</li>
+                    <li>Estimula a criatividade.</li>
+                    <li>Existe um mercado enorme a procura de bons programadores.</li>
+                    <li>Lhe entrega a possibilidade de explorares um mundo em exploração.</li>
+                </ul>
+            </div>
+        </div>
+        <h1 id="h1AreaActuacao">Áreas que a Programação Actua</h1>
+        <div id="divAreasActuacao">
+            <div class="itensAreasActuacao">
+                <img src="IMG/person-holding-game-pads-1174746.jpg" />
+                <a href="#divGames"><p>Games</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/macbook-pro-beside-papers-669619.jpg" />
+                <a href="#divNegocios"><p>Negócios</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/intertenimento.jpg" />
+                <a href="#divIntertenimento"><p>Entertenimento</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/woman-holding-books-3768126.jpg" />
+                <a href="#divEducacao"><p>Educação</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/engineer-fitting-prosthetic-arm-3912992.jpg" />
+                <a href="#divMedicina"><p>Médicina</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/person-sitting-inside-car-2526127.jpg" />
+                <a href="#divAutomoveis"><p>Automóveis</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/raised-building-frame-169647.jpg" />
+                <a href="#divCidades"><p>Cidades</p></a>
+            </div>
+            <div class="itensAreasActuacao">
+                <img src="IMG/people-holding-their-phones-3184435.jpg" />
+                <a href="#divRelacoes"><p>Relações</p></a>
+            </div>
+        </div>
+        <div id="contentorDeTextos">
+            <h1>Como começar?</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            </p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+
+            <h1>Onde Começar?</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+
+            <h1>Será que vou conseguir?</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </div>
+        <div id="descricaoAreasActuacao">
+            <div id="divGames" class='divDescricacaoAreasActuacao divEsquerda'>
+                <div>
+                    <h2>Games</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divNegocios"  class='divDescricacaoAreasActuacao divDireita'>
+                <div>
+                    <h2>Négocios</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divIntertenimento" class='divDescricacaoAreasActuacao divEsquerda'>
+                <div>
+                    <h2>Intertenimento</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divEducacao" class='divDescricacaoAreasActuacao divDireita'>
+                <div>
+                    <h2>Educação</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divMedicina" class='divDescricacaoAreasActuacao divEsquerda'>
+                <div>
+                    <h2>Médicina</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divAutomoveis" class='divDescricacaoAreasActuacao divDireita'>
+                <div>
+                    <h2>Automóveis</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divCidades" class='divDescricacaoAreasActuacao divEsquerda'>
+                <div>
+                    <h2>Cidades</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+            <div id="divRelacoes" class='divDescricacaoAreasActuacao divDireita'>
+                <div>
+                    <h2>Relações</h2>
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="divCompanyLogo">
+                <img src="IMG/codingWhite.svg"> <p>Uija Code</p>
+            </div>
+            <p>Feito com &#128147 por Uija Code</p>
+            <ul>
+                <li><a href="">Contactos </a></li>
+                <li><a href="">|  Sobre-nós </a></li>
+                <li><a href="">|  Direitos & Politicas</a></li>
+            </ul>
         </footer>
         <script src="jquery.js"></script>
         <script src="JS/index.js"></script>

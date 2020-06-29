@@ -1,0 +1,89 @@
+#divMenu{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+    background: white;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+nav ul {
+    list-style: none;
+    display: block;
+    right: 5.5%;
+    position: absolute;
+}
+nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+#divMenu a img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.7%;
+    cursor: pointer;
+}
+#divMenu a p {
+    font-size: 20px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #444;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    padding-left: 35px;
+    left: 0.8%;
+    text-indent: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: block !important;
+}
+nav ul a li {
+    height: 20px;
+    text-align: center;
+    color: #292827;
+    text-align: center;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 15px; 
+}
+
+.toggleMenu {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-color: #2085aa;
+    display: inline-block;
+    font-size: 28px;
+    z-index: 2;
+    display: none;
+}
+.toggleMenu img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 1.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.toggleMenu a {
+    width: 28px;
+    height: 28px;
+}
+.toggleMenu a #imgLogoUijaCode {
+    position: absolute;
+    left: 1.5%;
+    width: 28px;
+    height: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+}

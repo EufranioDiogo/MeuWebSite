@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Font/Roboto-Light.ttf)
+}
+body {
+    background-color: #F3F7F7;
+}
+@media only screen and (max-device-width: 1750px) {
+    #li3 {
+        color: #2ea6d2;
+    }
+    #divCoursesContent{
+        margin-top: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #divCoursesContent .courseElement{
+        position: relative;
+        flex-basis: 250px;
+        height: 200px;
+        background-color: #000021;
+        background-image: url('../IMG/code-projected-over-woman-3861969.jpg');
+        background-size: cover;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin: 10px 10px;
+        box-shadow: -5.5px -5.5px 0px #2ea6d2;
+        transition: 1.0s;
+        cursor: pointer;
+    }
+    #divCoursesContent .courseElement:hover{
+        box-shadow: 0px 0px 0px #2ea6d2;
+    }
+    #divCoursesContent .courseElement .courseInfo:hover{
+        opacity: 1;
+    }
+    .courseElement .courseInfo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: #2ea6d2cc;
+        overflow: hidden;
+        opacity: 0;
+        transition: 1.0s;
+    }
+
+    .courseElement .courseInfo h1{
+        font-size: 19.5px;
+        color: white;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .courseElement .courseInfo p{
+        font-size: 14.5px;
+        line-height: 1.5;
+        color: white;
+        font-weight: 100;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-device-width: 768px) {
+    body {
+        background-position-x: -200px !important;
+        background-position-y: 0px !important;
+    }
+    nav ul a img{
+        display: none;
+    }
+    .toggleMenu {
+        display: block !important;
+        top: 0 !important;
+    } 
+    #divSuperior {
+        width: 100% !important;
+        height: 210px !important;
+        margin-top: 10px !important;
+    }
+    #divSuperior video {
+        width: 100% !important;
+        height: auto !important;
+        left: unset;
+        transform: unset;
+        margin: 0;
+        top: 0 !important;
+        position: absolute;
+    }
+    nav ul {
+        display: none;
+        margin-top: 30px !important;
+    }
+    nav ul a {
+        display: block;
+    }
+    nav ul a p {
+        display: none !important;
+    }
+
+    #divConteudo {
+        width: 88% !important;
+        left: 0 !important;
+        margin: 0 !important;
+        transform: unset !important;
+        top: 285px  !important;
+        padding-left: 20px !important ;
+    }
+    #divConteudo h1 {
+        font-size: 25px !important;
+    }
+
+    .ocultarLogo {
+        display: none;
+    }
+    #divSuperior {
+        background: unset !important;
+        top: 24px !important;
+    }
+    
+    #divRodape #divRodapeSocialMidia {
+        top: 2%;
+        right: 30%;
+        margin-left: 42.5%;
+        z-index: 1;
+    }
+    #divRodape {
+        background-position-y: 130px;
+        background-position-x: -100px;
+    }
+    #buttonGoTop {
+        display: none !important;
+    }
+    footer#footerRodape {
+        margin-top: 43.5%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 414px) {
+    nav ul  {
+        text-align: center;
+    }
+    nav ul a img {
+        display: none;
+    }
+    nav ul a li {
+        font-size: 14px;
+        padding: 5px 10px !important;
+        line-height: 20px;
+    }
+    #divConteudo {
+        top:  63px  !important;
+    }
+    #divRodape {
+        height: 400px !important;
+        background-position-x: -180px;
+        background-position-y: 100px;
+    }
+    #divRodapeInfo {
+        top: 56% !important;
+        height: 82%;
+    }
+    #divRodape #divRodapeSocialMidia {
+        top: 2%;
+        right: 30%;
+        margin-left: 37.5%;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 411px) {
+    #divSlide {
+        height: 300px !important;
+    }
+    #divAprenderProgramar {
+        top: 20.5% !important;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 375px) {
+    nav ul  {
+        text-align: left;
+    }
+    nav ul a li {
+        font-size: 13px;
+        font-weight: lighter !important;
+        line-height: 20px;
+    }
+    #divRodapeInfo {
+        width: 280px;
+    }
+    #divRodape #divRodapeSocialMidia {
+        margin-left: 35.5%;
+        top: 2.5%;
+    }
+    #divRodape #divRodapeSocialMidia img{
+        width: 45px;
+        height: 45px;
+    }
+    #divRodape {
+        margin-top: -20px;
+    }
+}
+
+
+
+
+@media only screen and (max-device-width: 360px) {
+    nav ul  {
+        text-align: center;
+    }
+    nav ul a li {
+        font-size: 12px;
+        font-weight: lighter !important;
+        padding: 5px !important;
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-device-width: 325px) {
+
+}
+
+
+
+
+
+@media only screen and (max-device-width: 320px) {
+    nav ul  {
+        text-align: center;
+    }
+    nav ul a li {
+        font-size: 10px;
+        font-weight: 500;
+        padding: 5px !important;
+        line-height: 20px;
+    }
+}

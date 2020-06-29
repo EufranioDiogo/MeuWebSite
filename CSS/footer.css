@@ -1,0 +1,60 @@
+
+#footer {
+    background-color: #444;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    margin: 50px 0 0 0;
+}
+#footer p {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: #fff !important;
+    font-weight: bolder;
+}
+#footer #divCompanyLogo{
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 0.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footer #divCompanyLogo img{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0;
+    top: 0;
+}
+#footer #divCompanyLogo p{
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35px;
+    text-align: left;
+}
+#footer ul{
+    position: absolute;
+    right: 0.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footer ul li{
+    display: inline-block;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, 'Opens Sans', Arial, 'sans serif';
+    font-size: 14px;
+}
+#footer ul li:hover a {
+    text-decoration: underline;
+}
