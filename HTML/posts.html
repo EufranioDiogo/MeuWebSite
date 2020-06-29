@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/posts.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <title>Uija Code - Posts</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <nav id="navMenu">
+            <div class="toggleMenu"><a href="../index.html"><img id="imgLogoUijaCode" src="IMG/codingWhite.svg"
+                        alt=""></a><img src="../IMG/menu.svg" alt="menuIcon"></div>
+            <div id="divMenu">
+                <a href="#"><img src="../IMG/coding.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+                <!--
+                        -->
+                <ul id="listaDesordenada">
+                    <a href="../index.html">
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
+                            Inicio</li>
+                    </a>
+                    <!--
+                    --><a href="#">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">
+                            Posts</li>
+                    </a>
+                    <!--
+                    --><a href="cursos.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
+                    </a>
+                    <!--
+                    --><a href="quemsomos.html">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">
+                            Quem somos?</li>
+                    </a>
+                    <!--
+                    -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="divBarraSuperior">
+        <h1>
+            Postagens
+        </h1>
+    </div>
+    <main id="mainContentorDePostagens">
+        <a href="Posts/1_Post_Porque_me_apaixonei_por_programacao/HTML/porque_me_apaixonei_por_programacao.html">
+            <div class="divPostClass">
+                <figure>
+                    <img class="imgPostCover" src="../IMG/black-love-and-black-heart-on-white-background-2733664.jpg"
+                    alt="">
+                    <figcaption>kdodkosk</figcaption>
+                </figure>
+                <div class="divInformacoesPostagem">
+                    <h2 class="h2TituloPostagem">Por que me apaixonei por programação?</h2>
+                    <div class="divInformacoesPublicadorPostagem">
+                        <h3 class="h3NomePublicador">Autor: Eufránio Diogo.</h3>
+                        <h3 class="h3DataPublicacao" >Data: 27/06/2020</h3>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </main>
+    <footer id="footer">
+        <div id="divCompanyLogo">
+            <img src="../IMG/codingWhite.svg"> <p>Uija Code</p>
+        </div>
+        <p>Feito com &#128147 por Uija Code</p>
+        <ul>
+            <li><a href="">Contactos </a></li>
+            <li><a href="">|  Sobre-nós </a></li>
+            <li><a href="">|  Direitos & Politicas</a></li>
+        </ul>
+    </footer>
+    <script src="../JS/jquery.js"></script>
+    <script src="../JS/actividades.js"></script>
+    <script src="../JS/rodape.js"></script>
+    <script src="../JS/overAndOutMenu.js"></script>
+</body>
+
+</html>

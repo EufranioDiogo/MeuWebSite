@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/universal.css">
     <link rel="stylesheet" href="../CSS/quemsomos.css">
     <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
     <title>Uija Code - Quem somos</title>
 </head>
 <body>
@@ -19,11 +21,12 @@
                 <ul id="listaDesordenada">
                     <a href="../index.html"><li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
                     </a><!--
-                    --><a href="actividades.html">
+                    --><a href="posts.html">
                         <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Posts</li>
                     </a><!--
-                    --><a href="primeirosPassos.html">
-                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">Primeiros Passos</li>
+                    --><a href="cursos.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
                     </a><!--
                     --><a href="#">
                         <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Quem somos?</li>
@@ -51,11 +54,12 @@
                     "Quando eu tive a primeira ideia da criação de uma organização que ensina-se programação em Angola, foi algo uau! e
                     decidi entrar nesta, porque olhei a programação como uma forma de fuga de muitos caminhos ruins que a juventude
                     angolana tem se perdido e sabendo que a programação já mudou a vida de milhares de pessoas, desta mesma forma pode,
-                    mudar o mundo de muitos jovens angolanos lhes provendo o possível futuro melhor!
+                    mudar o mundo de muitos jovens angolanos lhes provendo o possível futuro melhor!"
                 </p>
             </div>
             </p>
         </div>
+        <div id="divEfeitoTraseiro"></div>
         <div id="conteudo2">
             <h1>Uija Code</h1>
             <p>A Uija Code é uma organização angolana com principal missão de incentivar e levar os jovens angolanos para o caminho da
@@ -64,53 +68,27 @@
                 acesso a dispositiovos computacionais que possam ajudar no processo de aprendizagem e compartilhamento de informações sobre programação.
             </p>
         </div>
+        <div id="divFaleConnosco">
+            <h1>Não se esquece de falar connosco!</h1>
+            <a target="blank" href="https://about.me/eufraniodiogo">
+                <i title="about.me/eufraniodiogo" class="fas fa-address-card"></i>
+            </a>
+            <a target="blank" href="https://github.com/EufranioDiogo">
+                <i title="Github" class="fab fa-github-square"></i>
+            </a>
+        </div>
     </div>
 
-
-    <footer id="footerRodape">
-        <div id="divRodape">
-            <div id="divLogoRodape">
-                <a href="../index.html">
-                    <img src="../IMG/codingGray.svg" alt="Logo da Uijia Programar">
-                    <p>Uija Code</p>
-                </a>
-            </div>
-            <div id="divRodapeSocialMidia">
-                <img id="facebookLogo" src="../IMG/Icons/64x64/facebook.svg" alt="logo facebook" class="socialMidia" onmouseover="mouseOverSocialMedia('facebookLogo')" onmouseout="mouseOutSocialMedia()">
-                <img id="twitterLogo" src="../IMG/Icons/64x64/twitter.svg" alt="logo twitter" class="socialMidia" onmouseover="mouseOverSocialMedia('twitterLogo')" onmouseout="mouseOutSocialMedia()">
-                <img id="instagramLogo" src="../IMG/Icons/64x64/instagram.svg" alt="logo instagram" class="socialMidia" onmouseover="mouseOverSocialMedia('instagramLogo')" onmouseout="mouseOutSocialMedia()">
-                <img id="pinterestLogo" src="../IMG/Icons/64x64/pinterest.svg" alt="logo pinterest" class="socialMidia" onmouseover="mouseOverSocialMedia('pinterestLogo')" onmouseout="mouseOutSocialMedia()">
-            </div>
-            <ul id="divRodapeInfo">
-                <li id="divRodapeInfo1">
-                    <h3>Sobré-nos</h3>
-                        <h4><a href="#">Quem somos?</a></h4>
-                        <h4><a href="">Nosso Objectivo!</a></h4>
-                        <h4><a href="">Planos e Objectivos</a></h4>
-                </li>
-
-                <li id="divRodapeInfo2">
-                    <h3>Contactos</h3>
-                        <h4><a href="">Email: uijiacode@gmail.org</a></h4>
-                        <h4><a href="endereco.html">Endereço: 1º Maio, rua Ngola Kiluange</a></h4>
-                        <h4>Telefone: +244 921 611 793</h4>
-                </li>
-
-                <li id="divRodapeInfo3">
-                    <h3>Deseja Nós Ajudar?</h3>
-                        <h4><a href="">De a oportunidade a jovens angolanos!</a></h4>
-                        <h4><a href="">Diz nós o que devemos melhorar</a></h4>
-                        <h4>.</h4>
-                </li>
-                
-                <li id="divRodapeInfo4">
-                    <h3>Direitos</h3>
-                        <h4>CopyLeft Código Livre</h4>
-                        <h4><a href=""></a>Autor: Eufránio Diogo</h4>
-                        <h4>Ano: 2019</h4>
-                </li>
-            </ul>
+    <footer id="footer">
+        <div id="divCompanyLogo">
+            <img src="../IMG/codingWhite.svg"> <p>Uija Code</p>
         </div>
+        <p>Feito com &#128147 por Uija Code</p>
+        <ul>
+            <li><a href="">Contactos </a></li>
+            <li><a href="">|  Sobre-nós </a></li>
+            <li><a href="">|  Direitos & Politicas</a></li>
+        </ul>
     </footer>
     <script>
         var descFundador = document.querySelector('#conteudo1 > div > div')

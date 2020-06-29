@@ -9,10 +9,12 @@
 ul, ol, li {
     list-style-type: none;
 }
-p {
+h1, h2, h3, p{
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 14px;
     font-style: normal;
+}
+p {
+    font-size: 14px;
     text-align: justify;
     color: #444;
 }

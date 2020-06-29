@@ -12,30 +12,14 @@ function verificarActivo() {
     }
 }
 
-function overButton(id) {
-    var element = document.getElementById(id);
-    element.style.transition = '0.5s';
+function overButton(id){
+    var elemento_da_lista = document.getElementById(id)
 
-    if(id != 'li'+(itemActivo)) {
-
-        try {
-            if(flagPanel == 0 && id == 'divEsquerdaAreaActuacao') {
-                element.style.cursor = 'not-allowed';
-            } 
-            if(flagPanel == 1 && id == 'divDireitaAreaActuacao') {
-                element.style.cursor = 'not-allowed';
-            }
-            if(id == 'divEsquerdaAreaActuacao' || id == 'divDireitaAreaActuacao') {
-                element = element.children[0];
-                
-            }
-        } catch (error) {
-            console.log('erro')
-        }
-        element.style.color = "#2ea6d2"; 
+    if(elemento_da_lista.getAttribute('href') != '#'){
+        elemento_da_lista.style.transition = '0.5s';
+        elemento_da_lista.style.color = '#2B85AA';
     }
 }
-
 function outButton(id) {
     var element = document.getElementById(id);
     
@@ -47,5 +31,6 @@ function outButton(id) {
         element.style.color = '#333'; 
     }
 }
+
 
 verificarActivo();

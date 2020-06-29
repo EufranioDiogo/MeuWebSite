@@ -2,664 +2,351 @@
     font-family: Roboto;
     src: url(Font/Roboto-Light.ttf)
 }
+
 @media only screen and (max-device-width: 1750px) {
     #li1 {
-        background-color: #2ea6d2;
-        color: white;
-    } 
-    div#divSlide {
-        margin-top: 50px ;
-        width: 100%;
-        height: 445px;
-        position: relative;
-        background: url('../IMG/female-software-engineer-coding-on-computer-3861972.jpg');
-        background-position-y: -100px;
-        background-repeat: no-repeat;
-        background-position-x: 74px;
-        background-size: 1200px;
+        color: #2ea6d2;
     }
-    #imgPC{
+    body {
+        font-family: Roboto, Arial, 'Open Sans', 'Helvetica Nueue', sans-serif !important;
+        background-color: #F3F7F7;
+        ;
+    }
+    #divSlide {
+        margin-top: 45px;
+        width: 100%;
+        height: 555px;
+        position: relative;
+        background: url('../IMG/two-children-looking-up-2305192.jpg');
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+    }
+    #divSlide div {
         position: absolute;
-        right: 5.5%;
-        width: 75%;
-        left: 50%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(46, 166, 210, 0.1);
+    }
+    #divSlide div #tituloCover {
+        position: absolute;
         top: 50%;
-        transform: translate(-50%, -92%);
+        font-size: 45px;
+        font-weight: 500;
+        font-family: "Opens Sans", Arial, "sans serif";
+        color: white;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-shadow: 0 0 22px rgba(0, 0, 0, 0.3);
     }
     div#contentorPrincipal {
-        position: relative; 
-        margin-top: 3px;
+        position: relative;
+        margin-top: 20px;
         width: 100%;
         height: auto;
     }
     #videoAprenderProgramar {
-        position: absolute;
-        width: 700px;
-        height: 490px;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -80%);
-        background-size: 100%;
-        border: 0;
-        box-shadow: 0 0 0 0;
-        outline: 0;
-        background-size: cover;
+        position: relative;
+        left: 0;
+        border-radius: 0 5px 5px 0;
+        width: 60%;
+        margin-left: -74px;
     }
     #divAprenderProgramar {
-        height: 1000px;
+        height: 495px;
         width: 88%;
         position: relative;
         left: 5.5%;
         top: 3.5%;
-        padding: 20px 10px;
+        padding: 20px 0px;
     }
-    h1 {
-        font-family: Roboto ,Arial,'Open Sans', 'Helvetica Nueue', sans-serif;
+    #divConteudoPrincipal {
+        width: 43%;
+        height: auto;
+        right: 0;
+        position: absolute;
+        top: 1%;
+    }
+    h1, h2 {
+        font-family: Roboto, Arial, 'Open Sans', 'Helvetica Nueue', sans-serif;
         color: #505150;
         font-size: 25px;
-        font-weight: 1;
-        border-bottom: 1px thin #FF9700;
+        font-weight: 700;
+        padding: 15px 0;
     }
-    h1#titlePorqueProgramar {
-        padding-left: 15px    
+    h2 {
+        font-size: 20px;
     }
-    h1#titleAreaActuacao {
-        padding-left: 90px    
-    }    
-    #spanAprenderProgramar {
-        width: auto;
-        height: 200px;
+    #h1AreaActuacao {
+        position: relative;
+        top: -60px;
+        text-align: center;
+        font-size: 40px;
     }
     p {
-        color: #444;
+        color: #444 !important;
         font-weight: lighter;
         font-family: Roboto;
         text-align: justify;
-        padding: 10px; 
+        line-height: 1.5;
+        padding: 10px;
         font-size: 15px;
         font-weight: lighter;
         text-indent: 15px;
         line-height: 1.7;
-        margin: 0 0px 32px 5px; 
+        margin: 0 0px 32px 5px;
     }
-    #divAreaActucaoConteiner {
-        width: 89%;
-        margin-top: 3%;
-        margin-left: 0%;
-        height: 405px;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+    #divConteudoPrincipal>p {
+        margin: 0;
+    }
+    #divConteudoPrincipal>h2 {
+        color: #505150 !important;
+        padding: 25px 20px;
+    }
+    #divConteudoPrincipal>ul>li {
+        font-family: Roboto;
+        font-size: 14px;
+        color: #444;
+    }
+    #divConteudoPrincipal ul li {
+        list-style: circle;
+        list-style-position: inside;
+        line-height: 1.5;
+        margin-left: 20px;
     }
     #divAreasActuacao {
-        width: 89%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 86% !important;
+        left: 50%;
+        transform: translateX(-50%);
         position: relative;
-        margin-top: 20px;
+        height: 650px;
+        justify-content: center !important;
     }
-    .divAreaActuacao {
-        background-color: #fff;
-        box-shadow: 0px 3px 6px rgba(22, 22, 22, 0.35);
-        border-radius: 2px;
-        height: 380px;
-        width: 242px;
-        top: 50%;
-        transform: translateY(-50%);
-        position: absolute;
-    }
-    .divAreaActuacao img {
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        height: 65%;
-        width: 100%;
-    } 
-    .divAreaActuacao div {
-        border-bottom-left-radius: 2px;
-        border-bottom-right-radius: 2px;
-        height: 28%;
-        width: 100%;
-        position: absolute;
-        overflow: auto;
-    }
-    .divAreaActuacao h1 {
-        font-size: 120%;
-        text-align: center;
-        text-indent: 10px;
-        border: none;
-        color: #202020;
-        font-weight: 400;
-    }
-    .divAreaActuacao div p {
-        color: #7C7C7C;
-        background-color: #FBFBFB;
-        overflow-y: auto;
-        font-size: 14px;
-        line-height: 1.5;
-        border-bottom-left-radius: 2px;
-        border-bottom-right-radius: 2px;
-        position: absolute;
-        text-align: justify;
-        text-indent: 0;
-        top: 0;
-        left: 0;
-        padding: 0 4px 0 4px;
-        margin: 0;
-    }
-    .divAvancarRecuar {
-        width: 55px;
-        height: 55px;
-        box-shadow: 0px 0px 6px rgba(100, 100, 100, 0.70);
-        position: absolute;
-        margin: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    .divAvancarRecuar p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px;
-        font-weight: lighter;
-        margin: 0;
-        border-radius: 50%;
-        line-height: 35px;
-        padding: 10px;
-    }
-    #divDireitaAreaActuacao {
-        right: 0%;
-        background-color: white;
-    }
-    #divEsquerdaAreaActuacao {
-        left: 0%;
-        background-color: white;
-    }
-    #divAreaActuacao1 {
-        margin-left: 6%;
-    }
-    #divAreaActuacao2 {
-        margin-left: 29%;
-    }
-    #divAreaActuacao3 {
-        margin-left: 51.5%;
-    }
-    #divAreaActuacao4 {
-        margin-left: 74%;
-    }
-    footer#footerRodape {
-        background-color: #2ea6d2;
-        width: 100%;
-        height: 250px;
+    .itensAreasActuacao {
+        flex-basis: 19% !important;
+        height: 35% !important;
+        border-radius: 50% !important;
+        margin: 0px 32px;
+        top: 12px;
         position: relative;
-        bottom: 0;
-        margin-top: 6.5%;
+        overflow: hidden;
+        transition: 1.0s;
     }
-    #divRodape {
-        position: relative;
+    .itensAreasActuacao img {
+        position: absolute;
         width: 100%;
         height: 100%;
-        background-color: #1e6e96;
-        alt: 'Negócio vetor criado por freepik - br.freepik.com';
-        background-image: url(../IMG/2968383.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position-y: 200px;
-        background-position-x: 250px;
-        border-top: 5px solid #2ea6d2;
-    }
-    #divRodape #divRodapeSocialMidia {
-        position: absolute;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        top: 2%;
-        /*right: 7.7%;*/
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 2px;
-    }
-    #divRodape #divRodapeSocialMidia img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    #divRodape #divRodapeSocialMidia #direitosParagrafo {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 15px;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    #divLogoRodape {
-        position: absolute;
-        top: 2%;
-        left: 5.5%;
-        padding: 0;
-        margin: 0;
-        cursor: pointer;
-    }
-    #divLogoRodape a {
-        position: absolute;
-        top: 0;
         left: 0;
-    }
-    #divLogoRodape img {
-        position: absolute;
         top: 0;
-        left: 2%;
-        width: 50px;
-        height: 50px;
+        border-radius: 50% !important;
+        object-fit: cover;
     }
-    #divLogoRodape a p {
-        position: absolute;
-        top: 1%;
-        left: 7%;
-        color: #575858;
-        font-size: 16px;
-        font-weight: lighter;
-        margin: 6px 0 0 10px;
-        padding: 0;
-        padding: 0px 0px 0px 50px;
-        text-indent: 0;
-        line-height: 1.2;
-    }
-    #divRodapeInfo {
-        width: 87%;
-        height: 75%;
-        list-style: none;
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.9);
-        top: 65%;
-        left: 5.2%;
-        transform: translateY(-50%);
-        border-radius: 5px;
-    }
-    #divRodapeInfo li {
-        width: 235px;
-        height: 68;
-        display: inline-block;
-        top: 0;
-        margin-left: 5px;
-        padding: 5px;
-        border-left: 1px solid #555;;
-    }
-    #divRodapeInfo li h3 {
-        padding: 2px 0px;
-        font-size: 14px;
-        font-family: Roboto, Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        color: #001016;
-    }
-    #divRodapeInfo li h4 {
-        font-size: 13px;
-        font-family: Roboto, Arial, Helvetica, sans-serif;
-        font-weight: 200;
-        margin-left: 10px;
-        padding: 1px;
-        cursor: pointer;
-    }
-    #divRodapeInfo li h4 a{
-        text-decoration: none;
-        color: #00161f;
-    }
-    #divAreasActuacao {
-        width: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-
-
-
-
-@media only screen and (max-device-width: 1024px) {
-    div#divSlide {
-        margin-top: 33px !important;
-    }
-    h1#titleAreaActuacao {
-        padding-left: 60px !important;
-        margin-top: 0px !important;
-    }
-    #videoAprenderProgramar {
-        left: 50.5%;
-    }
-    #divAprenderProgramar {
-        width: 45%;
-    }
-    #divAreasActuacao {
-        margin-top: 55px;
-    }
-    .divAreaActuacao {
-        height: 80% !important;
-        width: 20% !important;
-        transform: translateY(-50%);
-        position: absolute;
-    }
-    .divAreaActuacao img{
-        height: 86%;
-    }
-    .divAreaActuacao div p {
-        display: none;
-    }
-    div#divAreaActuacao1 {
-        margin-left: 7%;
-    }
-
-    div#divAreaActuacao2 {
-        margin-left: 30%;
-    }
-
-    div#divAreaActuacao3 {
-        margin-left: 53%;
-    }
-
-    #divAreaActuacao4 {
-        margin-left: 75.5%;
-    }
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 768px) {
-    nav ul a img{
-        display: none;
-    }
-    .languageLogo {
-        display: none;
-    }
-    .toggleMenu {
-        display: block !important;
-        top: 0 !important;
-    }
-
-    nav ul {
-        display: none;
-        margin-top: 30px !important;
-    }
-    nav ul a {
+    .itensAreasActuacao:hover p {
+        opacity: 1;
         display: block;
     }
-
-    h1#titleAreaActuacao {
-        padding-left: 52px;
-        margin-top: 0px !important;
+    .itensAreasActuacao:hover {
+        box-shadow: 0 0 15px rgba(46, 166, 210, 0.95);
     }
-    #videoAprenderProgramar {
-        position: relative;
-        left: 25.5%;
-        width: 53%;
-        margin-bottom: 2%;
-        margin-top: 2.5%;
-    }
-    #divAprenderProgramar {
-        height: 255px;
-        width: 90%;
+    .itensAreasActuacao p {
         position: absolute;
-        left: 4.5%;
-        top: 24.5% !important;
-    }
-    #divAreasActuacao {
-        margin-top: 233px;
-    }
-        
-    #divAreaActucaoConteiner {
-        width: 99% !important;
-        margin-left: unset;
-        height: 364px;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-top: -6%;
-    }
-
-    .divAvancarRecuar {
-        width: 20px;
-        height: 8%;
-        border-radius: 0;
-    }
-    .divAvancarRecuar p {
-        line-height: 29px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: white !important;
+        font-size: 30px;
+        font-weight: 500;
+        border-radius: 50%;
+        background-color: rgba(30, 30, 30, 0.5);
+        left: 0;
         padding: 0;
-        text-indent: 0;
+        margin: 0;
+        line-height: 7.5;
         text-align: center;
+        opacity: 0;
+        transition: 1s;
+        cursor: pointer;
     }
-    .divAreaActuacao {
-        height: 62% !important;
+    #contentorDeTextos:nth-child(n) {
+        margin: 0 !important;
+        padding: 75px 135px;
     }
-    .divAreaActuacao img{
-        height: 86%;
+    #contentorDeTextos p {
+        margin: 5px 0 0 0;
     }
-    .divAreaActuacao div p {
-        display: none;
+    #descricaoAreasActuacao {
+        width: 100%;
+        margin-top: 100px;
+        padding: 35px 0
     }
-    div#divAreaActuacao1 {
-        margin-left: 9%;
+    .divDescricacaoAreasActuacao {
+        width: 43.2%;
+        height: 400px;
+        margin-top: 20px;
+        background-repeat: repeat;
+        transition: 1.0s;
     }
-
-    div#divAreaActuacao2 {
-        margin-left: 30%;
+    .divDescricacaoAreasActuacao:hover {
+        box-shadow: none;
     }
-
-    div#divAreaActuacao3 {
-        margin-left: 51%;
+    .divDescricacaoAreasActuacao div {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(30, 30, 30, 0.5);
+        border-radius: 5px;
     }
-
-    #divAreaActuacao4 {
-        margin-left: 72%;
+    .divDescricacaoAreasActuacao div p, h2 {
+        color: white !important;
+        margin: 0;
+        padding: 25px;
+        border-radius: 5px;
     }
-    nav ul a p {
-        display: none !important;
+    .divDescricacaoAreasActuacao div h2 {
+        text-align: center;
+        font-size: 55px;
     }
-    #divRodape #divRodapeSocialMidia {
-        top: 2%;
-        right: 30%;
-        margin-left: 42.5%;
-        z-index: 1;
+    .divEsquerda {
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+        margin-left: 3.3%;
     }
-    #divRodape {
-        background-position-y: 130px;
-        background-position-x: -100px;
+    .divDireita {
+        margin-left: 50%;
+        border-radius: 5px;
+        box-shadow: -4px 3px 10px rgba(0, 0, 0, 1);
+    }
+    #divGames {
+        background-image: url('../IMG/AreasActucao/black-sony-ps4-dualshock-4-wireless-controller-687811.jpg');
+    }
+    #divNegocios {
+        background-image: url('../IMG/AreasActucao/photo-of-woman-wearing-eyeglasses-3184405.jpg');
+    }
+    #divIntertenimento {
+        background-image: url('../IMG/AreasActucao/beard-man-holding-cassette-lying-on-blue-and-violet-linen-3756766.jpg');
+    }
+    #divEducacao {
+        background-image: url('../IMG/AreasActucao/woman-in-black-long-sleeve-dress-standing-on-brown-concrete-3186386.jpg');
+    }
+    #divMedicina {
+        background-image: url('../IMG/AreasActucao/engineer-fitting-prosthetic-arm-3912962.jpg');
+    }
+    #divAutomoveis {
+        background-image: url('../IMG/AreasActucao/female-engineer-testing-sound-system-3862622.jpg');
+    }
+    #divCidades {
+        background-image: url('../IMG/AreasActucao/white-concrete-buildings-under-white-clouds-3722818.jpg');
+        background-position-y: -200px;
+    }
+    #divRelacoes {
+        background-image: url('../IMG/AreasActucao/turned-on-macbook-3205403.jpg');
     }
 }
-
-
-
-
-
-
 
 @media only screen and (max-device-width: 414px) {
-    nav ul  {
-        text-align: center;
+    #divMenu>a>p {
+        visibility: hidden;
     }
-    nav ul a img {
-        display: none;
-    }
-    nav ul a li {
-        font-size: 14px;
-        padding: 5px 10px !important;
-        line-height: 20px;
-    }
-    h1#titleAreaActuacao {
-        padding-left: 33px !important;
-        width: 80%;
-        margin-bottom: 0% !important;
+    #listaDesordenada>a>li {
+        padding: 10px 5px;
     }
     #divSlide {
-        height: 404px !important;
+        position: relative;
+        background-color: #2ea6d2;
+        height: 400px;
+        background-position-y: 0;
+    }
+    #divSlide div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    #tituloCover {
+        font-size: 35px !important;
+    }
+    .divDescricacaoAreasActuacao {
+        margin: 25px 0;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
     }
     #videoAprenderProgramar {
+        position: relative;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    #divConteudoPrincipal {
+        width: 100%;
+        height: auto;
+        right: 0;
+        position: relative;
+        top: 1%;
+    }
+    #h1AreaActuacao {
+        position: relative;
+        top: 280px;
+        font-size: 30px;
+    }
+    #divConteudoPrincipal>ul {
+        position: relative;
+    }
+    #divAreasActuacao {
+        width: 100% !important;
+        position: relative;
+        height: 540px;
+        justify-content: center !important;
+        margin-top: 260px;
+    }
+    .itensAreasActuacao {
+        flex-basis: 44% !important;
+        height: 27% !important;
+        margin: 10px;
+        top: 12px;
+        position: relative;
+    }
+    .itensAreasActuacao p {
+        line-height: 5;
+    }
+    #contentorDeTextos:nth-child(n) {
+        padding: 0 0 0 10px;
+        position: relative;
+        margin-top: 150px !important;
+    }
+    .divDescricacaoAreasActuacao {
+        overflow: auto;
+    }
+    #footer ul {
+        position: absolute;
+        right: 0;
+        top: 70%;
+        transform: none !important;
         width: 100%;
         left: 0;
+        text-align: center
     }
-    #divAprenderProgramar {
-        top: 20.5% !important;
-        margin-bottom: 15px !important;
+    #footer p {
+        top: 0 !important;
+        transform: translate(-50%, 0) !important;
+        font-size: 14px;
+        color: #fff !important;
+        font-weight: bolder;
     }
-    #divAreasActuacao {
-        margin-top: 380px;
-    }
-    #divAreaActucaoConteiner {
-        width: 89%;
-        margin-left: unset;
-        height: 364px;
+}
+
+@media only screen and (min-width: 762px) and (max-width: 768px){
+    #divSlide {
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-top: -20%;
-    }
-    .divAreaActuacao {
-        height: 22% !important;
-        width: 18% !important;
-        transform: translateY(-50%);
-        position: absolute;
-    }
-    .divAreaActuacao img {
-        height: 100%;
-    }
-    .divAreaActuacao h1 {
-        position: absolute;
-        font-size: 12px;
-        font-weight: 800;
-        top: 50%;
-        color: white;
-        background-color: rgba(22, 22, 22, 0.35);
-        width: 100%;
-        height: 100%;
-        transform: translateY(-50%);
-        line-height: 86.31px;
-        text-indent: 0 !important;
-    }
-    .divAvancarRecuar {
-        width: 20px;
-        height: 8%;
-        border-radius: 0;
-    }
-    #divRodape {
-        height: 400px !important;
-        background-position-x: -180px;
-        background-position-y: 100px;
-    }
-    #divRodapeInfo {
-        top: 56% !important;
-        height: 82%;
-    }
-    #divRodape #divRodapeSocialMidia {
-        top: 2%;
-        right: 30%;
-        margin-left: 37.5%;
-        z-index: 1;
-    }
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 411px) {
-    #divSlide {
-        height: 300px !important;
-    }
-    #divAprenderProgramar {
-        top: 20.5% !important;
-    }
-}
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 375px) {
-    nav ul  {
-        text-align: left;
-    }
-    nav ul a li {
-        font-size: 13px;
-        font-weight: lighter !important;
-        line-height: 20px;
-    }
-    #divAprenderProgramar {
-        top: 18.5% !important;
-    }
-    #divAreasActuacao {
-        margin-top: 410px !important;
-    }
-    #divRodapeInfo {
-        width: 280px;
-    }
-    #divSlide {
-        height: 375px !important;
-    }
-    #divRodape #divRodapeSocialMidia {
-        margin-left: 35.5%;
-        top: 2.5%;
-    }
-    #divRodape #divRodapeSocialMidia img{
-        width: 45px;
-        height: 45px;
-    }
-    #divRodape {
-        margin-top: -20px;
-    }
-}
-
-
-
-
-@media only screen and (max-device-width: 360px) {
-    nav ul  {
-        text-align: center;
-    }
-    nav ul a li {
-        font-size: 12px;
-        font-weight: lighter !important;
-        padding: 5px !important;
-        line-height: 20px;
-    }
-    #divAreasActuacao {
-        margin-top: 450px !important;
-    }
-}
-
-
-
-
-
-@media only screen and (max-device-width: 325px) {
-
-}
-
-
-
-
-
-@media only screen and (max-device-width: 320px) {
-    nav ul  {
-        text-align: center;
-    }
-    nav ul a li {
-        font-size: 10px;
-        font-weight: 500;
-        padding: 5px !important;
-        line-height: 20px;
-    }
-    #divAreasActuacao {
-        margin-top: 485px !important;
-    }
-    #divAprenderProgramar {
-        top: 15.5% !important;
+        background-color: #2ea6d2;
+        height: 400px;
+        background-position-y: 0;
     }
 }

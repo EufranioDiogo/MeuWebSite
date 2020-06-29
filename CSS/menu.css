@@ -27,21 +27,20 @@ nav ul a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 5.5%;
+    left: 0.7%;
     cursor: pointer;
 }
 #divMenu a p {
     font-size: 20px;
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #2ea6d2;
+    color: #444;
     position: absolute;
     margin: 0;
     padding: 0;
-    padding: 10px; 
+    padding: 10px;
     padding-left: 35px;
-    margin-left: 12px;
-    left: 5%;
+    left: 0.8%;
     text-indent: 0;
     top: 50%;
     transform: translateY(-50%);
