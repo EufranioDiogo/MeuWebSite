@@ -9,7 +9,7 @@
     }
     body {
         font-family: Roboto, Arial, 'Open Sans', 'Helvetica Nueue', sans-serif !important;
-        background-color: #F3F7F7;
+        background-color: #f9fafa;
         ;
     }
     #divSlide {
@@ -270,6 +270,9 @@
     #tituloCover {
         font-size: 35px !important;
     }
+    #h2VantagensAprenderProgramar{
+        padding: 25px 10px !important;
+    }
     .divDescricacaoAreasActuacao {
         margin: 25px 0;
         width: 100%;
@@ -323,22 +326,6 @@
     }
     .divDescricacaoAreasActuacao {
         overflow: auto;
-    }
-    #footer ul {
-        position: absolute;
-        right: 0;
-        top: 70%;
-        transform: none !important;
-        width: 100%;
-        left: 0;
-        text-align: center
-    }
-    #footer p {
-        top: 0 !important;
-        transform: translate(-50%, 0) !important;
-        font-size: 14px;
-        color: #fff !important;
-        font-weight: bolder;
     }
 }
 

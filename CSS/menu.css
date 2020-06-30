@@ -87,3 +87,12 @@ nav ul a li {
     top: 50%;
     transform: translateY(-50%);
 }
+
+@media only screen and (max-device-width: 414px) {
+    #divMenu>a>p {
+        visibility: hidden;
+    }
+    #listaDesordenada>a>li {
+        padding: 10px 5px;
+    }
+}
