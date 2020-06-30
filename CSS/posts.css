@@ -108,67 +108,21 @@ body{
 }
 
 
-@media only screen and (max-device-width: 1024px) {
-  
-}
-
-
-
-
-@media only screen and (max-device-width: 768px) {
-    
-}
-
-
-
-
-
-
-
 @media only screen and (max-device-width: 414px) {
-
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 411px) {
-
-}
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 375px) {
-
-}
-
-
-
-
-@media only screen and (max-device-width: 360px) {
-
-}
-
-
-
-
-
-@media only screen and (max-device-width: 325px) {
-
-}
-
-
-
-
-
-@media only screen and (max-device-width: 320px) {
-    
+    #mainContentorDePostagens {
+        align-content: center !important;
+        justify-content: center !important;
+    }
+    #divBarraSuperior{
+        position: relative;
+        margin-top: 50px;
+    }
+    .divPostClass{
+        margin-left: 0;
+        margin-right: 0;
+        border: 1px solid #2ea6d2;
+    }
+    #mainContentorDePostagens{
+        margin-top: 10px;
+    }
 }

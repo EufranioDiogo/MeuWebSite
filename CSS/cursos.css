@@ -3,7 +3,7 @@
     src: url(../Font/Roboto-Light.ttf)
 }
 body {
-    background-color: #F3F7F7;
+    background-color: #f9fafa;
 }
 @media only screen and (max-device-width: 1750px) {
     #li3 {
@@ -13,6 +13,7 @@ body {
         margin-top: 100px;
         display: flex;
         justify-content: flex-start;
+        flex-wrap: wrap;
     }
     #divCoursesContent .courseElement{
         position: relative;
@@ -62,201 +63,17 @@ body {
 }
 
 
-@media only screen and (max-device-width: 768px) {
-    body {
-        background-position-x: -200px !important;
-        background-position-y: 0px !important;
-    }
-    nav ul a img{
-        display: none;
-    }
-    .toggleMenu {
-        display: block !important;
-        top: 0 !important;
-    } 
-    #divSuperior {
-        width: 100% !important;
-        height: 210px !important;
-        margin-top: 10px !important;
-    }
-    #divSuperior video {
-        width: 100% !important;
-        height: auto !important;
-        left: unset;
-        transform: unset;
-        margin: 0;
-        top: 0 !important;
-        position: absolute;
-    }
-    nav ul {
-        display: none;
-        margin-top: 30px !important;
-    }
-    nav ul a {
-        display: block;
-    }
-    nav ul a p {
-        display: none !important;
-    }
-
-    #divConteudo {
-        width: 88% !important;
-        left: 0 !important;
-        margin: 0 !important;
-        transform: unset !important;
-        top: 285px  !important;
-        padding-left: 20px !important ;
-    }
-    #divConteudo h1 {
-        font-size: 25px !important;
-    }
-
-    .ocultarLogo {
-        display: none;
-    }
-    #divSuperior {
-        background: unset !important;
-        top: 24px !important;
-    }
-    
-    #divRodape #divRodapeSocialMidia {
-        top: 2%;
-        right: 30%;
-        margin-left: 42.5%;
-        z-index: 1;
-    }
-    #divRodape {
-        background-position-y: 130px;
-        background-position-x: -100px;
-    }
-    #buttonGoTop {
-        display: none !important;
-    }
-    footer#footerRodape {
-        margin-top: 43.5%;
-    }
-}
-
-
-
-
-
-
-
 @media only screen and (max-device-width: 414px) {
-    nav ul  {
-        text-align: center;
+    #divCoursesContent {
+        margin-top: 55px;
+        justify-content: center;
     }
-    nav ul a img {
-        display: none;
+    #divCoursesContent .courseElement{
+        width: 200px !important;
+        box-shadow: none;
     }
-    nav ul a li {
-        font-size: 14px;
-        padding: 5px 10px !important;
-        line-height: 20px;
-    }
-    #divConteudo {
-        top:  63px  !important;
-    }
-    #divRodape {
-        height: 400px !important;
-        background-position-x: -180px;
-        background-position-y: 100px;
-    }
-    #divRodapeInfo {
-        top: 56% !important;
-        height: 82%;
-    }
-    #divRodape #divRodapeSocialMidia {
-        top: 2%;
-        right: 30%;
-        margin-left: 37.5%;
-        z-index: 1;
-    }
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 411px) {
-    #divSlide {
-        height: 300px !important;
-    }
-    #divAprenderProgramar {
-        top: 20.5% !important;
-    }
-}
-
-
-
-
-
-
-
-@media only screen and (max-device-width: 375px) {
-    nav ul  {
-        text-align: left;
-    }
-    nav ul a li {
-        font-size: 13px;
-        font-weight: lighter !important;
-        line-height: 20px;
-    }
-    #divRodapeInfo {
-        width: 280px;
-    }
-    #divRodape #divRodapeSocialMidia {
-        margin-left: 35.5%;
-        top: 2.5%;
-    }
-    #divRodape #divRodapeSocialMidia img{
-        width: 45px;
-        height: 45px;
-    }
-    #divRodape {
-        margin-top: -20px;
-    }
-}
-
-
-
-
-@media only screen and (max-device-width: 360px) {
-    nav ul  {
-        text-align: center;
-    }
-    nav ul a li {
-        font-size: 12px;
-        font-weight: lighter !important;
-        padding: 5px !important;
-        line-height: 20px;
-    }
-}
-
-
-
-
-
-@media only screen and (max-device-width: 325px) {
-
-}
-
-
-
-
-
-@media only screen and (max-device-width: 320px) {
-    nav ul  {
-        text-align: center;
-    }
-    nav ul a li {
-        font-size: 10px;
-        font-weight: 500;
-        padding: 5px !important;
-        line-height: 20px;
+    .courseInfo{
+        opacity: 0.95 !important;
+        box-shadow: none;
     }
 }
