@@ -129,7 +129,7 @@
     }
     .itensAreasActuacao {
         flex-basis: 19% !important;
-        height: 35% !important;
+        height: 35%;
         border-radius: 50% !important;
         margin: 0px 32px;
         top: 12px;
@@ -178,6 +178,15 @@
     }
     #contentorDeTextos p {
         margin: 5px 0 0 0;
+    }
+    #contentorDeTextos ul li{
+        padding: 0 25px 0;
+        font-size: 15px;
+        margin-top: 5px;
+        color: #fff;
+        background-color: #333;
+        position: relative;
+        width: max-content;
     }
     #descricaoAreasActuacao {
         width: 100%;
@@ -311,7 +320,7 @@
     }
     .itensAreasActuacao {
         flex-basis: 44% !important;
-        height: 27% !important;
+        height: 27%;
         margin: 10px;
         top: 12px;
         position: relative;
@@ -320,12 +329,64 @@
         line-height: 5;
     }
     #contentorDeTextos:nth-child(n) {
-        padding: 0 0 0 10px;
+        padding: 0;
         position: relative;
         margin-top: 150px !important;
     }
     .divDescricacaoAreasActuacao {
         overflow: auto;
+    }
+    #contentorDeTextos > h3{
+        padding: 15px 0 5px 10px;
+        color: #444;
+    }
+    #contentorDeTextos > h1{
+        padding: 15px 0 5px 10px;
+        color: #222;
+    }
+    #contentorDeTextos > p{
+        color: #111 !important;
+    }
+    #descricaoAreasActuacao {
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-device-width: 320px){
+    .itensAreasActuacao {
+        flex-basis: 40% !important;
+        height: 20% !important;
+        margin: 10px;
+        top: 12px;
+    }
+    .itensAreasActuacao p {
+        font-size: 15px;
+        line-height: 7;
+    }
+    .divDescricacaoAreasActuacao > div > h2{
+        font-size: 35px;
+    }
+    #contentorDeTextos:nth-child(n) {
+        padding: 0;
+        position: relative;
+        margin-top: 10px !important;
+    }
+    #contentorDeTextos > h1:nth-child(1){
+        padding-left: 10px
+    }
+    #contentorDeTextos > h3{
+        padding: 15px 0 5px 10px;
+        color: #444;
+    }
+    #contentorDeTextos > h1{
+        padding: 15px 0 5px 10px;
+        color: #222;
+    }
+    #contentorDeTextos > p{
+        color: #111 !important;
+    }
+    #descricaoAreasActuacao {
+        margin-top: 0px !important;
     }
 }
 
