@@ -170,3 +170,28 @@
         transform: translateX(-50%);
     }
 }
+@media only screen and (min-width: 762px) and (max-width: 768px) {
+    #mainConteiner {
+        margin-left: 8%;
+        padding: 1em 1em;
+        width: 80%;
+        background-color: #fbfbfb;
+    }
+    .post-data .ul-of-post-meta-data .meta-data-of-post {
+        margin: 10px 5px;
+        padding: 5px;
+        border-radius: 0;
+    }
+    .post-data .post-title {
+        color: white;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #mainConteiner {
+        margin-left: 8%;
+        padding: 1em 1em;
+        width: 80%;
+        background-color: #fbfbfb;
+    }
+}

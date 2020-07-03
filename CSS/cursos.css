@@ -77,3 +77,47 @@ body {
         box-shadow: none;
     }
 }
+@media only screen and (min-width: 762px) and (max-width: 768px){
+    #divCoursesContent > .courseElement {
+        left: 3%;
+    }
+    .courseInfo{
+        opacity: 0.95 !important;
+        box-shadow: none;
+    }
+    #divCoursesContent .courseElement{
+        width: 200px !important;
+        box-shadow: none;
+    }
+    #divCoursesContent .courseElement {
+        flex-basis: 220px;
+        overflow: scroll;
+    }
+    #footer{
+        position: absolute !important;
+        margin: 0;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #divCoursesContent > .courseElement {
+        left: 3%;
+    }
+    .courseInfo{
+        opacity: 0.95 !important;
+        box-shadow: none;
+    }
+    #divCoursesContent .courseElement{
+        width: 200px !important;
+        box-shadow: none;
+    }
+    #divCoursesContent .courseElement {
+        flex-basis: 220px;
+        overflow: scroll;
+    }
+    #footer{
+        position: absolute !important;
+        margin: 0;
+        bottom: 0;
+    }
+}
