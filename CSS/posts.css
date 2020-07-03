@@ -2,30 +2,29 @@
     font-family: Roboto;
     src: url(../Font/Roboto-Light.ttf)
 }
-body{
+
+body {
     background-color: #f9fafa;
 }
 
 @media only screen and (max-device-width: 1750px) {
     #li2 {
         color: #2ea6d2;
-    } 
-    #divBarraSuperior{
+    }
+    #divBarraSuperior {
         position: absolute;
         top: 8.5%;
         background-color: #f9fafa;
     }
-
-    #divBarraSuperior, #mainContentorDePostagens{
+    #divBarraSuperior, #mainContentorDePostagens {
         width: 87%;
         left: 5.5% !important;
         padding: 5px 10px;
     }
-    #divBarraSuperior h1{
+    #divBarraSuperior h1 {
         color: #333;
     }
-
-    #mainContentorDePostagens{
+    #mainContentorDePostagens {
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -48,13 +47,13 @@ body{
         transition: 0.6s;
         margin: 25px 6px 25px 6px;
     }
-    .divPostClass:hover{
+    .divPostClass:hover {
         box-shadow: 0 0 15px rgba(46, 166, 210, 0.95);
     }
-    .divPostClass:hover .imgPostCover{
+    .divPostClass:hover .imgPostCover {
         transform: scale(1.1);
     }
-    .divPostClass .imgPostCover{
+    .divPostClass .imgPostCover {
         width: 100%;
         height: 66%;
         position: absolute;
@@ -65,12 +64,12 @@ body{
         border-top-right-radius: 2px;
         transition: 1s;
     }
-    .divPostClass .divInformacoesPostagem{
+    .divPostClass .divInformacoesPostagem {
         position: absolute;
         width: 100%;
         height: 35%;
         bottom: 0;
-        background-color:#fff;
+        background-color: #fff;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
@@ -102,27 +101,41 @@ body{
         font-size: 13px;
         font-weight: 200;
     }
-    #footer{
+    #footer {
         margin: 0 !important;
     }
 }
-
 
 @media only screen and (max-device-width: 414px) {
     #mainContentorDePostagens {
         align-content: center !important;
         justify-content: center !important;
     }
-    #divBarraSuperior{
+    #divBarraSuperior {
         position: relative;
         margin-top: 50px;
     }
-    .divPostClass{
+    .divPostClass {
         margin-left: 0;
         margin-right: 0;
         border: 1px solid #2ea6d2;
     }
-    #mainContentorDePostagens{
+    #mainContentorDePostagens {
         margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 762px) and (max-width: 768px) {
+    #footer {
+        position: absolute !important;
+        margin: 0 !important;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #footer {
+        position: absolute !important;
+        margin: 0 !important;
+        bottom: 0;
     }
 }
