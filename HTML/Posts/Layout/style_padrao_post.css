@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 @media only screen and (max-device-width: 1750px) {
     body {
         background-color: #fbfbfb;
@@ -32,7 +35,7 @@
         text-align: center;
         font-weight: 600;
         margin-bottom: 10px;
-        font-size: 50px;
+        font-size: 5.0rem;
     }
     .post-data .ul-of-post-meta-data {
         color: white;
@@ -46,7 +49,8 @@
         display: inline-block;
         background-color: rgba(20, 20, 20, 0.623);
         padding: 10px;
-        border-radius: 50px;
+        border-radius: 0;
+        font-size: 1.4rem;
     }
     #mainConteiner {
         margin-left: 12%;
@@ -54,9 +58,12 @@
         width: 65%;
         background-color: #fbfbfb;
     }
+    #mainConteiner article{
+        border-left: 1px solid #eaeaea;
+    }
     #mainConteiner article h1 {
         text-align: left;
-        font-size: 45px;
+        font-size: 2.5rem;
         line-height: 1.65;
         margin-bottom: 40px;
         margin-top: -2px;
@@ -68,7 +75,7 @@
         width: 100%;
     }
     #mainConteiner article #textContent h2 {
-        font-size: 25px;
+        font-size: 2.5rem;
         text-align: left;
         padding: 5px;
         margin: 35px 0px;
@@ -79,7 +86,7 @@
         text-align: left;
         line-height: 2;
         padding: 5px;
-        font-size: 16px;
+        font-size: 1.6rem;
         margin: 10px 0;
     }
     #mainConteiner article #textContent img {
@@ -88,46 +95,12 @@
         transform: translateX(-50%);
         height: 400px;
     }
-    #painelLateral {
-        top: 10.5%;
-        left: 1.5%;
-        height: 141px;
-        width: 70px;
-        background-color: white;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: center;
-        position: fixed;
-    }
-    #painelLateral>h3 {
-        font-size: 14px;
-        font-weight: 100;
-        color: #333;
-    }
-    #painelLateral>i {
-        font-size: 35px;
-        display: block;
-        margin-top: 5px;
-        cursor: pointer;
-        border-radius: 50%;
-        transition: 0.5s;
-    }
-    #painelLateral>i:hover {
-        opacity: 0.5;
-    }
-    #painelLateral>i:nth-child(1) {
-        color: #2e87fc;
-    }
-    #painelLateral>i:nth-child(2) {
-        color: #22A1F3;
-        margin-top: 12px;
-    }
     .contactosAutor {
         position: relative;
         margin-top: 25px;
         width: 45%;
         height: 50px;
-        background-color: #353535;
+        background-color: #002238;
         border: 2px solid #0c0c0c;
     }
     .contactosAutor img {
@@ -145,7 +118,6 @@
         top: 0;
     }
     .contactosAutor div ul {
-        background-color: #353535;
         margin-left: 10px;
     }
     .contactosAutor div ul a {
@@ -155,6 +127,62 @@
         font-family: monospace;
         padding: 2px;
         margin-right: 10px;
+        font-size: 1.5rem;
+    }
+    #buttonIndice{
+        border: none;
+        padding: 10px 20px;
+        background-color: #002238;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #002238;
+    }
+
+    #divIndice{
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        max-height: 163px;
+        min-height: auto;
+        overflow: auto;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        padding: 5px 0;
+        display: none;
+    }
+    #divIndice ol > li {
+        margin: 5px 5px;
+        list-style-type: decimal !important;
+        list-style-position: inside;
+        font-size: 1.6rem;
+        font-family: Roboto;
+    }
+    #divIndice > ol > li > a {
+        color: #002238;
+        margin-top: 5px;
+        text-decoration: none;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    #divIndice ol > li > ul > li > a {
+        padding-left: 15px;
+        font-weight: 500;
+    }
+    #divIndice ol > li > a:hover{
+        transition: 0.3s;
+        color: #fff;
+        background-color: #002238;
+    }
+    .readBar{
+        position: fixed;
+        width: 100px;
+        height: 3px;
+        background-color: #2ea6d2;
+        top: 42px;
+        z-index: 1;
     }
 }
 @media only screen and (max-device-width: 414px){
@@ -184,7 +212,7 @@
     }
     .post-data .post-title {
         color: white;
-        font-size: 40px;
+        font-size: 4.0rem;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px){

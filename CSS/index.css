@@ -106,20 +106,20 @@
         color: #505150 !important;
         padding: 25px 20px;
     }
-    #contentorDeTextos > h1{
+    #contentorDeTextos>h1 {
         padding: 15px 0 5px 10px;
         color: #111;
     }
-    #contentorDeTextos > h2{
+    #contentorDeTextos>h2 {
         padding: 15px 0 5px 10px;
         color: #333;
     }
-    #contentorDeTextos > h3{
+    #contentorDeTextos>h3 {
         padding: 15px 0 5px 10px;
         color: #666;
+        font-size: 2.0rem;
     }
-    
-    #contentorDeTextos > p{
+    #contentorDeTextos>p {
         color: #222 !important;
     }
     #divConteudoPrincipal>ul>li {
@@ -195,7 +195,7 @@
     #contentorDeTextos p {
         margin: 5px 0 0 0;
     }
-    #contentorDeTextos ul li{
+    #contentorDeTextos ul li {
         padding: 0 25px 0;
         font-size: 15px;
         margin-top: 5px;
@@ -204,16 +204,16 @@
         position: relative;
         width: max-content;
     }
-    .pointsToTalkAbout{
+    .pointsToTalkAbout {
         margin: 10px 0 25px 25px;
     }
     #descricaoAreasActuacao {
         width: 100%;
-        margin-top: 100px;
+        margin-top: 10px;
         padding: 35px 0
     }
     .divDescricacaoAreasActuacao {
-        width: 43.2%;
+        width: 38.2%;
         height: 400px;
         margin-top: 20px;
         background-repeat: repeat;
@@ -243,7 +243,7 @@
     .divEsquerda {
         border-radius: 5px;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
-        margin-left: 3.3%;
+        margin-left: 10.3%;
     }
     .divDireita {
         margin-left: 50%;
@@ -272,6 +272,17 @@
         background-image: url('../IMG/AreasActucao/white-concrete-buildings-under-white-clouds-3722818.jpg');
         background-position-y: -200px;
     }
+    #divCidades a:link, :visited {
+        text-decoration: none;
+        color: #222;
+        background-color: #fff;
+        font-weight: 700;
+        padding: 2px;
+    }
+    #divCidades a:hover {
+        background-color: #009494;
+        color: #fff;
+    }
     #divRelacoes {
         background-image: url('../IMG/AreasActucao/turned-on-macbook-3205403.jpg');
     }
@@ -298,7 +309,7 @@
     #tituloCover {
         font-size: 35px !important;
     }
-    #h2VantagensAprenderProgramar{
+    #h2VantagensAprenderProgramar {
         padding: 25px 10px !important;
     }
     .divDescricacaoAreasActuacao {
@@ -307,6 +318,10 @@
         border: none;
         border-radius: 0;
         box-shadow: none;
+    }
+    .itensAreasActuacao p {
+        opacity: 1;
+        font-size: 2.0rem;
     }
     #videoAprenderProgramar {
         position: relative;
@@ -344,9 +359,6 @@
         top: 12px;
         position: relative;
     }
-    .itensAreasActuacao p {
-        line-height: 5;
-    }
     #contentorDeTextos:nth-child(n) {
         padding: 0;
         position: relative;
@@ -360,7 +372,7 @@
     }
 }
 
-@media only screen and (max-device-width: 320px){
+@media only screen and (max-device-width: 320px) {
     .itensAreasActuacao {
         flex-basis: 40% !important;
         height: 20% !important;
@@ -371,7 +383,7 @@
         font-size: 15px;
         line-height: 7;
     }
-    .divDescricacaoAreasActuacao > div > h2{
+    .divDescricacaoAreasActuacao>div>h2 {
         font-size: 35px;
     }
     #contentorDeTextos:nth-child(n) {
@@ -379,18 +391,18 @@
         position: relative;
         margin-top: 10px !important;
     }
-    #contentorDeTextos > h1:nth-child(1){
+    #contentorDeTextos>h1:nth-child(1) {
         padding-left: 10px
     }
-    #contentorDeTextos > h3{
+    #contentorDeTextos>h3 {
         padding: 15px 0 5px 10px;
         color: #555 !important;
     }
-    #contentorDeTextos > h1{
+    #contentorDeTextos>h1 {
         padding: 15px 0 5px 10px;
         color: #111 !important;
     }
-    #contentorDeTextos > p{
+    #contentorDeTextos>p {
         color: #111 !important;
     }
     #descricaoAreasActuacao {
@@ -398,22 +410,35 @@
     }
 }
 
-@media only screen and (min-width: 762px) and (max-width: 768px){
-    #divSlide {
-        background-position-y: 0;
+@media only screen and (min-width: 762px) and (max-width: 768px) {
+    #divAprenderProgramar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        left: 0;
+        top: 3.5%;
+        padding: 0;
     }
     #divConteudoPrincipal {
         width: 100%;
-        top: 50%;
     }
-
     #videoAprenderProgramar {
         position: relative;
-        left: 30%;
-        transform: translateX(-1%);
-        border-radius: 5px;
-        width: 60%;
-        margin-left: -74px;
+        left: 0;
+        transform: none;
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    #divConteudoPrincipal {
+        position: relative;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        margin: 20px auto 0 auto;
+    }
+    #divSlide {
+        background-position-y: 0;
     }
     .itensAreasActuacao {
         flex-basis: 24% !important;
@@ -426,8 +451,8 @@
     #divAreasActuacao {
         margin-top: -50px;
     }
-    #h1AreaActuacao{
-        margin-top: 150px;
+    #h1AreaActuacao {
+        margin-top: 100px;
     }
     #contentorDeTextos:nth-child(n) {
         margin: 0 !important;
@@ -454,22 +479,36 @@
         margin-left: 0%;
     }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #divAprenderProgramar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        left: 0;
+        top: 3.5%;
+        padding: 0;
+    }
     #divSlide {
         background-position-y: 0;
     }
     #divConteudoPrincipal {
         width: 100%;
-        top: 65%;
     }
-
     #videoAprenderProgramar {
         position: relative;
-        left: 30%;
-        transform: translateX(-1%);
-        border-radius: 5px;
-        width: 60%;
-        margin-left: -74px;
+        left: 0;
+        transform: none;
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    #divConteudoPrincipal {
+        position: relative;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        margin: 20px auto 0 auto;
     }
     .itensAreasActuacao {
         flex-basis: 24% !important;
@@ -482,8 +521,8 @@
     #divAreasActuacao {
         margin-top: -20px;
     }
-    #h1AreaActuacao{
-        margin-top: 200px;
+    #h1AreaActuacao {
+        margin-top: 100px;
     }
     #contentorDeTextos:nth-child(n) {
         margin: 0 !important;

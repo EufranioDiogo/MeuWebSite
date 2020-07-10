@@ -6,6 +6,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    font-size: 62.5%;
+}
 ul, ol, li {
     list-style-type: none;
 }
@@ -14,7 +17,7 @@ h1, h2, h3, p{
     font-style: normal;
 }
 p {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: justify;
     color: #444;
 }

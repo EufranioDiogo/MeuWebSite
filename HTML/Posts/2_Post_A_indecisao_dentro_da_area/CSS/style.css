@@ -1,0 +1,7 @@
+@import url('../../Layout/style_padrao_post.css');
+
+@media only screen and (max-width: 414px){
+    #coverImgDiv{
+        background-position-x: -230px;
+    }
+}

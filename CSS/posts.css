@@ -48,7 +48,7 @@ body {
         margin: 25px 6px 25px 6px;
     }
     .divPostClass:hover {
-        box-shadow: 0 0 15px rgba(46, 166, 210, 0.95);
+        box-shadow: 0 0 15px #2ea6d2f2;
     }
     .divPostClass:hover .imgPostCover {
         transform: scale(1.1);
@@ -75,7 +75,7 @@ body {
     }
     .divInformacoesPostagem .h2TituloPostagem {
         position: relative;
-        font-size: 20px;
+        font-size: 2.0rem;
         text-align: left;
         top: 0;
         left: 0;

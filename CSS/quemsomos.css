@@ -15,7 +15,7 @@
     }
     #divCabecalho p {
         position: absolute;
-        font-size: 65px;
+        font-size: 6.5rem;
         text-align: center;
         top: 50%;
         left: 50%;
@@ -167,7 +167,7 @@
     }
     #divCabecalho p{
         background-size: contain;
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     #conteudo1 div {
         width: 100%;
@@ -195,7 +195,7 @@
     }
     #divCabecalho p{
         background-size: contain;
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     #conteudo1 div {
         width: 100%;
@@ -223,7 +223,7 @@
     }
     #divCabecalho p{
         background-size: contain;
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     #conteudo1 div {
         width: 100%;
