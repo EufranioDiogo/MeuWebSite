@@ -1,53 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../../../CSS/universal.css"/>
-    <link rel="stylesheet" href="../../../../../CSS/menu.css"/>
-    <link rel="stylesheet" href="../../../../../CSS/footer.css"/>
+    <link rel="stylesheet" href="../../../../../CSS/universal.css" />
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../../CSS/menu.css" />
+    <link rel="stylesheet" href="../../../Layout/style.css">
+    <link rel="stylesheet" href="../../../../../CSS/footer.css" />
     <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
     <title>Uija Code - Python para Bebes</title>
 </head>
+
 <body>
     <header id="cabecalho">
         <nav id="navMenu">
-            <div class="toggleMenu"><a href="../../../../../index.html"><img id="imgLogoUijaCode" src="../../../../../IMG/codingWhite.svg" alt=""></a><img src="../../../../../IMG/menu.svg" alt="menuIcon"></div>
+            <div class="toggleMenu"><a href="../../../../../index.html"><img id="imgLogoUijaCode"
+                        src="../../../../../IMG/codingWhite.svg" alt=""></a><img src="../../../../../IMG/menu.svg"
+                    alt="menuIcon"></div>
             <div id="divMenu">
-                <a href="#"><img src="../../../../../IMG/coding.svg" alt="Logo da Uijia Programar"><p>Uija Code</p></a><!--
+                <a href="#"><img src="../../../../../IMG/coding.svg" alt="Logo da Uijia Programar">
+                    <p>Uija Code</p>
+                </a>
+                <!--
                         -->
                 <ul id="listaDesordenada">
-                    <a href="../../../../../index.html"><li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">Inicio</li>
-                    </a><!--
+                    <a href="../../../../../index.html">
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
+                            Inicio</li>
+                    </a>
+                    <!--
                     --><a href="../../../../posts.html">
-                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">Posts</li>
-                    </a><!--
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">
+                            Posts</li>
+                    </a>
+                    <!--
                     --><a href="../../../../cursos.html">
                         <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
                             Cursos</li>
-                    </a><!--
+                    </a>
+                    <!--
                     --><a href="../../../../quemsomos.html">
-                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">Quem somos?</li>
-                    </a><!--
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">
+                            Quem somos?</li>
+                    </a>
+                    <!--
                     -->
                 </ul>
             </div>
-        </nav> 
+        </nav>
     </header>
-
-
-
+    <div id="mainConteiner">
+        <div class="coverCurso">
+            <h1>Python Para Bebes</h1>
+        </div>
+        <div class="infoCurso">
+            <div class="descCurso">
+                <h2>Desc Curso <i id="upDownButton" class="fas fa-chevron-up"></i></h2>
+                <div class="content">
+                    <p>Curso destinado para pessoas que querem aprender a programar <strong>python</strong> com calma e sem querer aprender tudo do dia para noite</p>
+                    <h3>Conteúdo</h3>
+                    <ol>
+                        <li>História</li>
+                        <li>Instalação dos apps</li>
+                        <li>Variáveis(int, float)</li>
+                        <li>Operadores aritméticos</li>
+                        <li>Operadores relacionais</li>
+                        <li>Variáveis(bool, str)</li>
+                        <li>listas
+                            <ul>
+                                <li>Indexeção de Listas</li>
+                                <li>Fatiamento de listas</li>
+                                <li>Métodos importantes para listas</li>
+                            </ul>
+                        </li>
+                        <li>tuplas</li>
+                        <li>Estrutura de decisões</li>
+                        <li>Estrutura de repetição(while)</li>
+                        <li>Estrutura de repetição(for)</li>
+                        <li>Funções</li>
+                    </ol>
+                    <p>Seram várias partes das linguagens que vou abordar, é um curso longo mas acredito que vai ajudar!</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer id="footer">
         <div id="divCompanyLogo">
-            <img src="../../../../../IMG/codingWhite.svg"> <p>Uija Code</p>
+            <img src="../../../../../IMG/codingWhite.svg">
+            <p>Uija Code</p>
         </div>
         <p>Feito com &#128147 por Uija Code</p>
         <ul>
             <li><a href="">Contactos </a></li>
-            <li><a href="">|  Sobre-nós </a></li>
-            <li><a href="">|  Direitos & Politicas</a></li>
+            <li><a href="">| Sobre-nós </a></li>
+            <li><a href="">| Direitos & Politicas</a></li>
         </ul>
     </footer>
+    <script>
+        let descCurVisible = true;
+        let upDownButton = document.querySelector('#upDownButton')
+        let descContent = document.querySelector('#mainConteiner > div.infoCurso > div > div')
 
+        upDownButton.onclick = () => {
+            if(descCurVisible){
+                descContent.style.display = 'none'
+                descCurVisible = false
+                upDownButton.setAttribute('class', 'fas fa-chevron-down')
+                document.querySelector('.infoCurso > .descCurso').style.border = '1px solid #fff'
+            } else {
+                descContent.style.display = 'block'
+                descCurVisible = true
+                upDownButton.setAttribute('class', 'fas fa-chevron-up')
+                document.querySelector('.infoCurso > .descCurso').style.border = '1px solid #a1a1a1'
+            }
+        }
+    </script>
 </body>
+
 </html>

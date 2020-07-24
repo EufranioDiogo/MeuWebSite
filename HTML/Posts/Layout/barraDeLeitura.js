@@ -11,7 +11,6 @@ window.onscroll = () => {
         result = (window.scrollY * 100) / offSetTop;
         result = result.toFixed(2)
         readBar.style.width = `${result}%`
-        console.log(sizeOfReadBar)
     } else if(window.scrollY == 0) {
         readBar.style.width = "0"
     }
