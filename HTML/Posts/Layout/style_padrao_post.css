@@ -89,19 +89,82 @@ html{
         font-size: 1.6rem;
         margin: 10px 0;
     }
+    #mainConteiner article #textContent p:nth-child(2)::first-letter {
+        font-size: 2.2rem;
+    }
+    #mainConteiner article #textContent p:nth-child(2){
+        text-indent: 2rem;
+    }
     #mainConteiner article #textContent img {
         width: 65%;
         margin-left: 50%;
         transform: translateX(-50%);
         height: 400px;
     }
+    #buttonIndice{
+        border: none;
+        padding: 10px 20px;
+        background-color: #2ea6d2;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #2ea6d2;
+    }
+
+    #divIndice{
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        max-height: 163px;
+        min-height: auto;
+        overflow: auto;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        padding: 5px 0;
+        display: none;
+    }
+    #divIndice ol > li {
+        margin: 5px 5px;
+        list-style-type: decimal !important;
+        list-style-position: inside;
+        font-size: 1.6rem;
+        font-family: Roboto;
+        color: #54595F;
+    }
+    #divIndice > ol > li > a {
+        color: #54595F;
+        margin-top: 5px;
+        text-decoration: none;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    #divIndice ol > li > ul > li > a {
+        padding-left: 15px;
+        font-weight: 500;
+    }
+    #divIndice ol > li > a:hover{
+        transition: 0.3s;
+        color: #fff;
+        background-color: #54595F;
+    }
+    .readBar{
+        position: fixed;
+        width: 100px;
+        height: 3px;
+        background-color: #2ea6d2;
+        top: 42px;
+        z-index: 1;
+    }
+
     .contactosAutor {
         position: relative;
         margin-top: 25px;
         width: 45%;
         height: 50px;
-        background-color: #002238;
-        border: 2px solid #0c0c0c;
+        background-color: #2ea6d2;
+        border: 2px solid #003346;
     }
     .contactosAutor img {
         position: absolute;
@@ -129,60 +192,10 @@ html{
         margin-right: 10px;
         font-size: 1.5rem;
     }
-    #buttonIndice{
-        border: none;
-        padding: 10px 20px;
-        background-color: #002238;
-        color: #fff;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 5px;
-        border: 1px solid #002238;
-    }
-
-    #divIndice{
-        position: relative;
-        margin-top: 10px;
-        width: 100%;
-        max-height: 163px;
-        min-height: auto;
-        overflow: auto;
-        background-color: #fbfbfb;
-        border-radius: 5px;
-        padding: 5px 0;
-        display: none;
-    }
-    #divIndice ol > li {
-        margin: 5px 5px;
-        list-style-type: decimal !important;
-        list-style-position: inside;
-        font-size: 1.6rem;
-        font-family: Roboto;
-    }
-    #divIndice > ol > li > a {
-        color: #002238;
-        margin-top: 5px;
-        text-decoration: none;
-        font-family: 'Roboto', Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 1.6rem;
-    }
-    #divIndice ol > li > ul > li > a {
-        padding-left: 15px;
-        font-weight: 500;
-    }
-    #divIndice ol > li > a:hover{
+    .contactosAutor div ul a:hover{
         transition: 0.3s;
+        background-color: #003346;
         color: #fff;
-        background-color: #002238;
-    }
-    .readBar{
-        position: fixed;
-        width: 100px;
-        height: 3px;
-        background-color: #2ea6d2;
-        top: 42px;
-        z-index: 1;
     }
 }
 @media only screen and (max-device-width: 414px){

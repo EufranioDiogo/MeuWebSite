@@ -6,6 +6,9 @@ body {
     background-color: #f9fafa;
 }
 @media only screen and (max-device-width: 1750px) {
+    #listaDesordenada a:nth-child(3){
+        border-bottom: 2px solid #2ea6d2;
+    }
     #li3 {
         color: #2ea6d2;
     }
