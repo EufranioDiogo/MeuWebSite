@@ -1,0 +1,24 @@
+
+            <h3>Aprender Lógica de Programação</h3>
+            <p> Aprender lógica de programação para mim hoje é algo que olho e vejo que é sim muito importante,
+                principalmente para quem está a começar ela vai te oferecer uma nova forma de pensar e vai te ajudar a
+                entender como o computador funciona com cada instrução que você dá para ele. Ela não vai te ser a
+                salvadora de tudo mas vai te dar uma base para você continuar a trilhar o seu caminho.
+            </p>
+
+            <h3>Escolher uma área para começar</h3>
+
+            <p>Em programação existem diversas áreas que você pode actuar, como: <strong>games</strong>,
+                <strong>mobile</strong>, <strong>web</strong>, <strong>internet of things</strong>,
+                <strong>IA(Inteligência Artificial)</strong>, etc . </p>
+            <p>
+                Entre todas estás áreas aconselho escolher uma que estás interassado(a) <a class="link-in-text"
+                    href="HTML/qual_area_escolher.html">clica aqui para saber mais da área a escolher</a>, depois de
+                decidido qual área escolher, defina vem o passo de definir uma linguagem de programação que atenda a
+                área escolhida <a class="link-in-text" href="HTML/qual_liguagem_programacao_escolher.html">clica aqui
+                    para saber de linguagens de programação</a>, depois de escolhida a linguagem vem o 3º passo.</p>
+            <h3>Praticar muito</h3>
+            <p>Meu amigo ou amiga se você querer se tornar um bom programador ou programadora, não tem outro caminho a trilhar, você vai ter de ralar muito, muito mesmo, mas não fique com medo porque vai ralar muito, fique feliz porque você nunca mais será o mesmo e vai mudar para nelhor.</p>
+
+            <h2>Será que vou conseguir?</h2>
+            <p>Claro! Mas como já disse vai ter de ralar, pode acontecer de ver umas pessoas ralando menos que você e está a ir normalmente, não ligue muito para isso cada um leva o seu tempo e a sua quantidade de ralação para entender as coisas portanto <strong>"Muita força e não desista, continue!"</strong>. Depois você vai se agradecer por ter continuado.</p>
