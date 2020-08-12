@@ -1,6 +1,9 @@
+itensToTalkAbout = document.getElementsByClassName('pointToTalkAbout')
 
-/* 
-1º Manter o li do menu activo de acordo a pagina
-2º Trabalhar com os paddings
-3º 
-*/
+for(i = 0; i < itensToTalkAbout.length; i++){
+    itensToTalkAbout[i].addEventListener('click', ()=>{
+        console.log(this)
+        id = `${this.getAttribute('href').replace('#', '')}`
+        document.getElementById(id).style.display = 'block';
+    })
+}
