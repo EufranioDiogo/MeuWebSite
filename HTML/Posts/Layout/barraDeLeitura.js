@@ -1,7 +1,7 @@
 let readBar = document.querySelector('.readBar')
 readBar.style.width = '0%'
 let endPoint = document.querySelector('#endOfPost')
-let offSetTop = endPoint.offsetTop - 450;
+let offSetTop = endPoint.offsetTop - 455;
 let sizeOfReadBar = 0;
 
 

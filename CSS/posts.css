@@ -40,23 +40,23 @@ body {
         height: auto;
         align-content: flex-start;
         justify-content: flex-start;
-        margin-bottom: 73px;
+        margin-bottom: 75px;
         margin-top: 8%;
     }
     .divPostClass {
-        width: 275px;
-        height: 365px;
+        width: 260px;
+        height: 360px;
         border-radius: 2px;
         box-shadow: none;
         position: absolute;
         position: relative;
         overflow: hidden;
         margin-top: 15px;
-        transition: 0.6s;
+        transition: 0.5s;
         margin: 25px 6px 25px 6px;
     }
     .divPostClass:hover {
-        box-shadow: 0 0 15px #2ea6d2f2;
+        box-shadow: 0 0 20px #4d4d4d8c;
     }
     .divPostClass:hover .imgPostCover {
         transform: scale(1.1);
@@ -75,7 +75,7 @@ body {
     .divPostClass .divInformacoesPostagem {
         position: absolute;
         height: 34%;
-        width: 273px;
+        width: 258px;
         bottom: 0;
         background-color: #fff;
         border-bottom-left-radius: 2px;
@@ -84,7 +84,7 @@ body {
     }
     .divInformacoesPostagem .h2TituloPostagem {
         position: relative;
-        font-size: 2.0rem;
+        font-size: 1.75rem;
         text-align: left;
         top: 0;
         left: 0;

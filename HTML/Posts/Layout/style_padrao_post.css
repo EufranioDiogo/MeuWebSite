@@ -13,7 +13,7 @@ html{
         width: 100%;
         margin-left: 0;
         margin-top: 45px;
-        height: 555px;
+        height: 500px;
         background-size: cover;
     }
     .filterDiv {
@@ -104,12 +104,12 @@ html{
     #buttonIndice{
         border: none;
         padding: 10px 20px;
-        background-color: #2ea6d2;
+        background-color: #54595F;
         color: #fff;
         font-weight: 600;
         cursor: pointer;
         border-radius: 5px;
-        border: 1px solid #2ea6d2;
+        border: 1px solid #54595F;
     }
 
     #divIndice{
@@ -146,14 +146,14 @@ html{
     }
     #divIndice ol > li > a:hover{
         transition: 0.3s;
-        color: #fff;
-        background-color: #54595F;
+        color: #54595F;
+        background-color: #54595f15;
     }
     .readBar{
         position: fixed;
         width: 100px;
         height: 3px;
-        background-color: #2ea6d2;
+        background: linear-gradient(to left, #2ea6d2 , #ff00c8);
         top: 42px;
         z-index: 1;
     }
@@ -161,27 +161,30 @@ html{
     .contactosAutor {
         position: relative;
         margin-top: 25px;
-        width: 45%;
         height: 50px;
-        background-color: #2ea6d2;
-        border: 2px solid #003346;
+        background-color: #ffffff;
+        border: 2px solid linear-gradient(to left, #2ea6d2 , #ff00c8);
+        padding: 5px 0 5px 5px;
     }
     .contactosAutor img {
         position: absolute;
         width: 50px;
         height: 50px;
+        border-radius: 50%;
     }
     .contactosAutor div {
         position: absolute;
         left: 50px;
     }
     .contactosAutor div p {
-        color: #fff;
+        color: #141414;
+        font-weight: 700;
         padding: 5px 10px;
         top: 0;
     }
     .contactosAutor div ul {
         margin-left: 10px;
+        margin-top: 2px;
     }
     .contactosAutor div ul a {
         text-decoration: none;
@@ -194,7 +197,7 @@ html{
     }
     .contactosAutor div ul a:hover{
         transition: 0.3s;
-        background-color: #003346;
+        background: linear-gradient(to left, #2ea6d2 , #ff00c8);
         color: #fff;
     }
 }
