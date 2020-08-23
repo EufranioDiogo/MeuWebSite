@@ -43,7 +43,7 @@ body {
         width: 100%;
         height: 100%;
         padding: 10px;
-        background-color: #2ea6d2cc;
+        background: linear-gradient(to left, #cf0000d8, #2ea6d2);
         overflow: hidden;
         opacity: 0;
         transition: 1.0s;
@@ -62,6 +62,9 @@ body {
         color: white;
         font-weight: 100;
         text-align: left;
+    }
+    #footer{
+        margin: 274px 0 0 0 !important;
     }
 }
 

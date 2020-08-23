@@ -50,27 +50,30 @@
     </header>
     <div id="mainConteiner">
         <div class="coverCurso">
-            <h1>Python para Bebes</h1>
+            <div id="divForHead">
+                <h1>Python para Bebes</h1>
+                <ul>
+                    <li><a id="liExer" href="https://github.com/uijacode/Python-Para-Bebes" target="_blank">Exercícios</a></li>
+                    <li><a id="liMat" href="https://github.com/uijacode/Python-Para-Bebes" target="_blank">Matériais</a></li>
+                    <li><a id="liEmen" href="#">Ementa do Curso</a></li>
+                    <li><a id="liSug" href="#">Matérias Sugeridos</a></li>
+                </ul>
+            </div>
         </div>
         <div class="divContent">
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aspernatur mollitia corporis ipsam
-                perferendis error tenetur quisquam, ducimus earum eius! Dolores consectetur tempora fugiat, quisquam
-                dolorum sunt maxime officia aliquam eius magni, tenetur voluptas animi ab nobis unde ratione
-                necessitatibus nesciunt dolorem fuga? Repudiandae tempore molestias soluta ad saepe. Doloremque
-                praesentium labore, itaque ullam dolores, explicabo sequi natus atque voluptate esse rerum, velit odio
-                eius pariatur. Officiis iusto corporis nostrum voluptatibus ab vitae aperiam eius, incidunt, corrupti
-                harum, eligendi deserunt cupiditate. Soluta, placeat repellat consequatur, eligendi expedita iste alias
-                labore, quisquam ea sapiente deleniti ipsum et harum molestiae sit libero.</p>
+            <p>O nome desse curso pode parecer um pouco trick(enganador) porque o curso não se trata de ensinar a
+                programar, mas sim ensinar <strong>Python</strong>, se quiser algo que lhe ensine a programar clique no
+                botão acima.</p>
             <h2>Objectivos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint expedita pariatur illo accusamus
-                similique quidem repellat voluptates et molestiae qui magni, temporibus unde, omnis, vero aliquid ullam
-                laborum corporis? Consequuntur recusandae commodi, in vero suscipit iste ullam quae alias voluptate
-                harum aut, laborum repudiandae temporibus soluta quisquam? Doloremque quis cumque a, repudiandae placeat
-                at possimus ipsam suscipit non voluptates fuga eos, ut dolores? Earum architecto magnam praesentium
-                labore, aut omnis cumque quod quia quae, assumenda commodi? Aliquid facere nesciunt corrupti aut fuga
-                delectus quam? Natus perferendis temporibus harum eveniet magni, voluptatem qui fuga praesentium
-                exercitationem repellat ea aliquam soluta.</p>
+            <p>Os objectivos deste curso são: introduzir para você como Python funciona, desde algumas das suas
+                features, detalhes particulares que a linguagem tem, listas, dicionários, tuplas, compressão de listas,
+                funções, ciclos de repetição, estruturas de decisão, módulos, arquivos, geradores, lambda, tratamento de
+                excessões e POO(Programação Orientada a Objectos).</p>
+            <h2>Conteúdo</h2>
+            <p>Todo o conteúdo que for recomendado durante o curso estara acessível a partir <a href="#">daqui</a> e
+                será free e, se você quiser saber cursos que recomendados fazer antes de pegar esse, <a href="#">clique
+                    aqui</a></p>
             <h2 id="">Vídeos</h2>
             <div class="divVideos">
                 <div class="videoLink">
@@ -140,8 +143,40 @@
                     </a>
                 </div>
             </div>
+            <a href="https://www.youtube.com/playlist?list=PLK1WaFVZCmgiK3SuGygD6jgUseh0KlUpK" class="linkVerMais" target="_blank">Ver mais</a>
         </div>
     </div>
+
+    <div class="divSugestoes">
+        <button id="button-angle-left" class="button-angle">
+            <i class="fas fa-angle-left"></i>
+        </button>
+
+        <div class="divSugestoesConteiner">
+            <div class="contentRow" style="left: 0;">
+                <a href="https://www.youtube.com/watch?v=S9uPNppGsGo" class="linkSugestao sugestaoVideo" target="_blank" style="background-image: url(../IMG/maxresdefault.webp);" title="Curso de Python básico feito pelo Prof. Gustavo Guanabara."><p>Curso em Vídeo de Python com uma didática incrível, e recheado de qualidade.</p>
+                <i class="fas fa-play-circle typeOfSugestion"></i>
+                </a>
+
+                <a href="https://learning.oreilly.com/library/view/head-first-python/9781491919521/" class="linkSugestao sugestaoBook" target="_blank" style="background-image: url(../IMG/HeadFirstPython.jpg);" ><p>Head First Python é um livro de Python. Mostrando detalhes peculiares da linguagem e com uma óptima ilustração.</p>
+                <i class="fas fa-book-open typeOfSugestion"></i>
+                </a>
+
+                <a href="https://www.netacad.com/courses/programming/pcap-programming-essentials-python" class="linkSugestao" target="_blank"><p>Curso de Python, muito bom para bases bem sólidas com relação a linguagem e projectos interessantes.</p></a>
+
+                <a href="https://www.jetbrains.com/academy/" class="linkSugestao" target="_blank"><p>Académia virtual da JetBrains onde você aprende Python by doing(fazendo) projectos e muitos deles uteis.</p></a>
+            </div>
+        </div>
+
+        <button id="button-angle-right" class="button-angle">
+            <i class="fas fa-angle-right"></i>
+        </button>
+
+        <button id="button-angle-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
     <footer id="footer">
         <div id="divCompanyLogo">
             <img src="../../../../../IMG/codingWhite.svg">
@@ -155,6 +190,7 @@
         </ul>
     </footer>
     <script src="../../../../../JS/overAndOutMenu.js"></script>
+    <script src="../../../Layout/scriptActionsAtCoursePage.js"></script>
 </body>
 
 </html>

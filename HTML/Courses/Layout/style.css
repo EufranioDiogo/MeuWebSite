@@ -8,25 +8,57 @@
     .coverCurso{
         position: relative;
         height: 15.0rem;
-        background-color: black;
         background-image: url('../../../IMG/woman-sitting-while-operating-macbook-pro-1181676.jpg');
         background-repeat: no-repeat;
+        background-attachment: scroll;
         background-size: cover; 
     }
-    .coverCurso > h1{
+    .coverCurso #divForHead{
+        top: 0;
         position: absolute;
-        font-size: 5.5rem;
-        color: #fff;
-        background: linear-gradient(to left, #d22e2ea9 , #ff00b3);
         height: 100%;
-        line-height: 14rem;
-        text-indent: 3.2%;
         width: 100%;
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
+    }
+    #divForHead ul{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        height: 30px;
+        top: 1;
+        left: 50%;
+        background-color: #fff;
+        transform: translateX(-50%);
+        justify-content: center;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    #divForHead ul li{
+        padding: 0px 15px 0 15px;
+    }
+    #divForHead ul li a{
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        line-height: 30px;
+        color: #181818 !important;
         font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    #divForHead ul li:hover{
+        border-bottom: 2px solid #2ea6d2;
+    }
+    .coverCurso h1{
+        line-height: 15.0rem;
+        text-align: center;
+        font-size: 4rem;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        color: #fff;
+        z-index: 1000;
+        text-shadow: 3px 3px #00a7d1;
     }
     #footer{
         margin-top: 100px !important;
         position: relative !important;
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2) !important;
     }
     .divContent{
         position: relative;
@@ -35,7 +67,7 @@
         transform: translateX(-50%);
     }
     .divContent h2{
-        margin: 15px 0;
+        margin: 15px 18px;
         font-size: 2.5rem;
     }
     .divContent p {
@@ -44,9 +76,11 @@
         line-height: 1.5;
         font-family: Arial, Helvetica, sans-serif !important;
         font-size: 1.45rem;
+        margin-left: 18px;
+        margin-right: 18px;
     }
-    .divContent h2:nth-child(1){
-        margin-top: 20px;
+    .divContent h2:first-child{
+        margin-top: 50px;
     }
     .divVideos{
         width: 100%;
@@ -67,7 +101,7 @@
     }
     .videoLink .videoDetails{
         position: absolute;
-        background: linear-gradient(to left, #d22e2ea9 , #ff00b3a9);
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
         width: 100%;
         height: 100%;
         overflow-y: auto;
@@ -87,5 +121,152 @@
     }
     #emptySpace{
         color: #fff;
+    }
+    a:link, a:checked{
+        color: #2ea6d2d2;
+    }
+    a:hover, a:active{
+        color: #0abeffd2;
+    }
+    .linkVerMais{
+        display: block;
+        position: relative;
+        width: 96%;
+        height: 30px;
+        background-color: #2ea6d2d3;
+        color: #ffffff !important;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 25px;
+    }
+    .linkVerMais:hover{
+        background-color: #2ea6d2;
+    }
+    .divSugestoes{
+        position: fixed;
+        width: 100%;
+        height: 0;
+        background-color: #fff;
+        z-index: 1;
+        bottom: 0;
+        border-top: 1px solid #e8e8e8;
+    }
+    .divSugestoes .divSugestoesConteiner{
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fcfcfc;
+        overflow: hidden;
+    }
+    .divSugestoesConteiner .contentRow{
+        display: flex;
+        justify-content: start;
+        height: 90%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        left: 0;
+    }
+    .linkSugestao{
+        position: relative;
+        display: block;
+        margin: 0 10px;
+        width: 230px;
+        height: 100%;
+        transition: 0.5s;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        border: 1px solid #e8e8e8;
+    }
+    .sugestaoVideo{
+        background-size: 100% 100%;
+    }
+    .sugestaoVideo i{
+        color: #c40000;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .typeOfSugestion{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2.5rem;
+        margin-right: -10px;
+        z-index: 2;
+    }
+    .sugestaoBook{
+        background-size: contain;
+        background-position: center;
+    }
+    .sugestaoBook i{
+        color: #00a7d1;
+    }
+    .linkSugestao p{
+        position: absolute;
+        bottom: 0;
+        width: 95.6%;
+        height: 25%;
+        background: #242424e1;
+        color: #fff;
+        border-radius: 0 0 5px 5px;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    .linkSugestao:hover{
+        margin-top: -10px;
+    }
+    .button-angle{
+        position: absolute;
+        border: none;
+        width: 2.5%;
+        height: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+    .button-angle i{
+        font-size: 50px;
+        color: #495057;
+        transition: 0.5s;
+    }
+    .button-angle:hover i{
+        font-size: 30px;
+    }
+    #button-angle-right{
+        border-radius: 0 10px 10px 0;
+        right: 2.5%;
+    }
+    #button-angle-left{
+        border-radius: 10px 0 0 10px;
+        left: 2.5%;
+    }
+    #button-angle-close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 2%;
+        right: 0.5%;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    #button-angle-close i{
+        font-size: 2.0rem;
+        color: #181818;
+        transition: 0.5s;
+    }
+
+    #button-angle-close:hover i{
+        color: #c40000;
     }
 }

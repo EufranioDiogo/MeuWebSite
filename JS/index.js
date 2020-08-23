@@ -14,9 +14,9 @@ for(i = 0; i < itensToTalkAbout.length; i++){
 
         if(block_true == 'none'){
             document.getElementById(id).style.display = 'block';
-            move_scrool_bar()
         } else {
             document.getElementById(id).style.display = 'none';
         }
+        move_scrool_bar()
     }
 }
