@@ -3,6 +3,20 @@ let btnLeft = document.querySelector('#button-angle-left')
 let step = 920;
 let element = document.querySelector('.contentRow')
 let btnCloseSugestion = document.querySelector('#button-angle-close')
+let number_of_links = 0;
+
+for(let index = 0; index < element.childNodes.length; index++){
+    console.log(element.childNodes[index].href)
+    if(element.childNodes[index].href != undefined){
+        number_of_links += 1;
+    }
+}
+
+console.log(number_of_links)
+if(number_of_links < 5){
+    btnLeft.style.display = 'none';
+    btnRigth.style.display = 'none';
+}
 
 let limiteRight = -(parseInt(window.getComputedStyle(element).getPropertyValue('width').replace('px', '')) - 230)
 

@@ -192,9 +192,6 @@ html{
         opacity: 1;
         display: block;
     }
-    .itensAreasActuacao:hover {
-        box-shadow: 0 0 10px #2ea6d2f2;
-    }
     .itensAreasActuacao p {
         position: absolute;
         top: 0;

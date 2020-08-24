@@ -30,7 +30,7 @@
         background-color: #fff;
         transform: translateX(-50%);
         justify-content: center;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 2px solid #e8e8e8;
     }
     #divForHead ul li{
         padding: 0px 15px 0 15px;
@@ -38,9 +38,9 @@
     #divForHead ul li a{
         text-align: center;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 30px;
-        color: #181818 !important;
+        color: #141414 !important;
         font-family: Roboto, Arial, Helvetica, sans-serif;
     }
     #divForHead ul li:hover{
@@ -185,7 +185,7 @@
         transition: 0.5s;
         border-radius: 5px;
         background-repeat: no-repeat;
-        border: 1px solid #e8e8e8;
+        border: 2px solid #e8e8e8;
     }
     .sugestaoVideo{
         background-size: 100% 100%;
