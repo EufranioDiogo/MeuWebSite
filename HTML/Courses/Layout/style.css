@@ -21,16 +21,16 @@
         background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
     }
     #divForHead ul{
-        position: absolute;
+        position: relative;
         display: flex;
         flex-wrap: wrap;
         height: 30px;
-        top: 1;
         left: 50%;
         background-color: #fff;
         transform: translateX(-50%);
         justify-content: center;
-        border-bottom: 2px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        z-index: 2;
     }
     #divForHead ul li{
         padding: 0px 15px 0 15px;

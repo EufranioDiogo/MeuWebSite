@@ -53,3 +53,15 @@ divSugestoes.style.transition = '0.5s'
 
 liSug.addEventListener('click', closeSugestionTab)
 btnCloseSugestion.addEventListener('click', closeSugestionTab)
+
+let divForeHead = document.querySelector('#divForHead ul')
+window.onscroll = ()=>{
+    if(parseInt(window.scrollY) >= 150){
+        divForeHead.style.position = 'fixed';
+        divForeHead.style.width = '100%'
+        divForeHead.style.top = '40px';
+    } else {
+        divForeHead.style.position = 'relative';
+        divForeHead.style.top = '0';
+    }
+}
