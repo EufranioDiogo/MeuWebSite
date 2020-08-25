@@ -1,6 +1,5 @@
 @media only screen and (max-device-width: 1750px){
     #mainConteiner{
-        height: 75rem;
         width: 100%;
         position: relative;
         background-color: #fff;
@@ -9,84 +8,265 @@
     .coverCurso{
         position: relative;
         height: 15.0rem;
-        background-color: black;
         background-image: url('../../../IMG/woman-sitting-while-operating-macbook-pro-1181676.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: scroll;
+        background-size: cover; 
     }
-    .coverCurso > h1{
+    .coverCurso #divForHead{
+        top: 0;
         position: absolute;
-        font-size: 5.5rem;
-        color: #fff;
-        background: linear-gradient(to right, #2ea6d2d8, #131313d8);
         height: 100%;
-        line-height: 14rem;
-        text-indent: 3.2%;
         width: 100%;
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
+    }
+    #divForHead ul{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: 30px;
+        left: 50%;
+        background-color: #fff;
+        transform: translateX(-50%);
+        justify-content: center;
+        border-bottom: 1px solid #e8e8e8;
+        z-index: 2;
+    }
+    #divForHead ul li{
+        padding: 0px 15px 0 15px;
+    }
+    #divForHead ul li a{
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3rem;
+        line-height: 30px;
+        color: #141414 !important;
         font-family: Roboto, Arial, Helvetica, sans-serif;
     }
-    .infoCurso {
-        position: relative;
-        padding: 1.5rem 0 0 3.2%;
+    #divForHead ul li:hover{
+        border-bottom: 2px solid #2ea6d2;
     }
-    .infoCurso > .descCurso{
-        width: 30rem;
-        background-color: #fcfcfc;
-        border-radius: 5px 5px 0 0;
-        border: 1px solid #a1a1a1;
-    }
-    .infoCurso > .descCurso > .content{
-        position: relative;
-        max-height: 50rem;
-        overflow-y: auto;
-    }
-    .infoCurso > .descCurso  > h2 {
-        position: relative;
+    .coverCurso h1{
+        line-height: 15.0rem;
+        text-align: center;
+        font-size: 4rem;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
         color: #fff;
-        font-size: 2rem;
-        margin-bottom: 10px;
-        padding: 1rem 1.5rem;
+        z-index: 1000;
+        text-shadow: 3px 3px #00a7d1;
+    }
+    #footer{
+        margin-top: 100px !important;
+        position: relative !important;
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2) !important;
+    }
+    .divContent{
+        position: relative;
+        width: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .divContent h2{
+        margin: 15px 18px;
+        font-size: 2.5rem;
+    }
+    .divContent p {
+        color: #141414 !important;
+        margin-bottom: 35px;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 1.45rem;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .divContent h2:first-child{
+        margin-top: 50px;
+    }
+    .divVideos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        flex-direction: row;
+        justify-items: start;
+    }
+    .videoLink{
+        display: block;
+        position: relative;
+        width: 275px;
+        height: 175px;
+        background-image: url('../IMG/pexels-kevin-ku-577585.jpg');
+        margin: 5px;
+        left: 1.5%;
+    }
+    .videoLink .videoDetails{
+        position: absolute;
+        background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0.9;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .videoLink .videoDetails:hover{
+        opacity: 1;
+    }
+    .videoDetails p{
+        color: #fff !important;
+        line-height: 2;
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+    }
+    #emptySpace{
+        color: #fff;
+    }
+    a:link, a:checked{
+        color: #2ea6d2d2;
+    }
+    a:hover, a:active{
+        color: #0abeffd2;
+    }
+    .linkVerMais{
+        display: block;
+        position: relative;
+        width: 96%;
+        height: 30px;
+        background-color: #2ea6d2d3;
+        color: #ffffff !important;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 25px;
+    }
+    .linkVerMais:hover{
         background-color: #2ea6d2;
-        font-family: monospace;
-        border-radius: 5px 5px 0 0;
+    }
+    .divSugestoes{
+        position: fixed;
+        width: 100%;
+        height: 0;
+        background-color: #fff;
+        z-index: 1;
+        bottom: 0;
+        border-top: 1px solid #e8e8e8;
+    }
+    .divSugestoes .divSugestoesConteiner{
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fcfcfc;
+        overflow: hidden;
+    }
+    .divSugestoesConteiner .contentRow{
+        display: flex;
+        justify-content: start;
+        height: 90%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        left: 0;
+    }
+    .linkSugestao{
+        position: relative;
+        display: block;
+        margin: 0 10px;
+        width: 230px;
+        height: 100%;
+        transition: 0.5s;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        border: 2px solid #e8e8e8;
+    }
+    .sugestaoVideo{
+        background-size: 100% 100%;
+    }
+    .sugestaoVideo i{
+        color: #c40000;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .typeOfSugestion{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2.5rem;
+        margin-right: -10px;
+        z-index: 2;
+    }
+    .sugestaoBook{
+        background-size: contain;
+        background-position: center;
+    }
+    .sugestaoBook i{
+        color: #00a7d1;
+    }
+    .linkSugestao p{
+        position: absolute;
+        bottom: 0;
+        width: 95.6%;
+        height: 25%;
+        background: #242424e1;
+        color: #fff;
+        border-radius: 0 0 5px 5px;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    .linkSugestao:hover{
+        margin-top: -10px;
+    }
+    .button-angle{
+        position: absolute;
+        border: none;
+        width: 2.5%;
+        height: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+    .button-angle i{
+        font-size: 50px;
+        color: #495057;
+        transition: 0.5s;
+    }
+    .button-angle:hover i{
+        font-size: 30px;
+    }
+    #button-angle-right{
+        border-radius: 0 10px 10px 0;
+        right: 2.5%;
+    }
+    #button-angle-left{
+        border-radius: 10px 0 0 10px;
+        left: 2.5%;
+    }
+    #button-angle-close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 2%;
+        right: 0.5%;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    #button-angle-close i{
+        font-size: 2.0rem;
+        color: #181818;
+        transition: 0.5s;
     }
 
-    #upDownButton{
-        position: absolute;
-        right: 1.5rem;
-    }
-    .infoCurso > .descCurso > .content {
-        transition: all 2.5s;
-    }
-    .infoCurso > .descCurso > .content > p {
-        line-height: 2rem;
-        padding: 10px 15px;
-        font-family: monospace;
-    }
-    #mainConteiner > div.infoCurso > div > p:nth-child(2){
-        padding-top: 0px !important;
-    }
-    .infoCurso > .descCurso > .content > h3 {
-        font-size: 1.6rem;
-        padding: 5px 15px;
-        font-family: monospace;
-        color: #2ea6d2;
-    }
-    .infoCurso > .descCurso > .content > ol {
-        padding: 5px 15px;
-    }
-    .infoCurso > .descCurso > .content > ol > li {
-        list-style-type: decimal-leading-zero;
-        list-style-position: inside;
-        color: #131313;
-        margin: 5px 15px;
-        font-size: 1.2rem;
-        font-family: monospace;
-        font-weight: 600;
-    }
-    .infoCurso > .descCurso > .content > ol > li > ul > li{
-        color: #f7024c;
-        list-style-position: inside;
-        margin: 5px 25px;
+    #button-angle-close:hover i{
+        color: #c40000;
     }
 }

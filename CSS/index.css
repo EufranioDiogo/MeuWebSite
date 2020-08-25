@@ -177,6 +177,7 @@ html{
         position: relative;
         overflow: hidden;
         transition: 1.0s;
+        box-shadow: 0 0 10px #c2c2c2;
     }
     .itensAreasActuacao img {
         position: absolute;
@@ -190,9 +191,6 @@ html{
     .itensAreasActuacao:hover p {
         opacity: 1;
         display: block;
-    }
-    .itensAreasActuacao:hover {
-        box-shadow: 0 0 10px #2ea6d2f2;
     }
     .itensAreasActuacao p {
         position: absolute;
@@ -212,6 +210,7 @@ html{
         opacity: 0;
         transition: 1s;
         cursor: pointer;
+        text-indent: 0 !important;
     }
     #contentorDeTextos:nth-child(n) {
         margin: 0 !important;
@@ -267,12 +266,13 @@ html{
     .divDescricacaoAreasActuacao {
         position: relative;
         width: 38.2%;
-        height: 400px;
+        height: 295px;
         margin-top: 20px;
         background-repeat: repeat;
         transition: 1.0s;
         display: inline-block;
         top: 0;
+        border-radius: 10px !important;
     }
     .divDescricacaoAreasActuacao:hover {
         box-shadow: none;
@@ -283,19 +283,23 @@ html{
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to right, #09c4fd98, #41414198);
+        background: linear-gradient(to right, #09c4fd98, #ff00c898);
         border-radius: 2px;
         overflow-y: auto;
+        border-radius: 10px !important;
     }
     .divDescricacaoAreasActuacao > div > h2 {
         margin: 0;
         padding: 25px;
-        border-radius: 2px;
+        border-radius: 10px 10px 0 0;
         color: #fff;
     }
 
     .divDescricacaoAreasActuacao > div > p {
         color: #fff !important;
+        margin: 0 !important;
+        border-radius: 0 0 10px 10px;
+        font-weight: 600;
     }
     .divDescricacaoAreasActuacao > div > h2 {
         text-align: center;

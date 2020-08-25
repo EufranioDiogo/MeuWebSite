@@ -1,8 +1,8 @@
 @media only screen and (max-device-width: 1750px) {
     body {
-        background: linear-gradient(to left, #2ea6d2 , #ff00c8);
+        background: linear-gradient(to left, #ffffff, #e6e6e6);
     }
-    #listaDesordenada a:nth-child(4){
+    #listaDesordenada a:nth-child(4) {
         border-bottom: 2px solid #2ea6d2;
     }
     #li4 {
@@ -10,7 +10,7 @@
     }
     #divCabecalho {
         width: 100%;
-        height: 845px;
+        height: 100vh;
         position: relative;
         margin-top: 42px;
         background-image: url('../IMG/people-riding-bicycles-2361103.jpg');
@@ -31,233 +31,71 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to left, #2ea6d281 , #ff00c883);
+        background: linear-gradient(to left, #2ea6d281, #ff00c883);
     }
-    #divConteudo {
+    #main-conteiner {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+    }
+    #content {
         position: relative;
         width: 100%;
-        height: 1000px;
-        background: linear-gradient(to left, #2ea6d2 , #ff00c8);
+        background: linear-gradient(to left, #21b0e4, #ff0062fd);
     }
-    #conteudo1 {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 90%;
-        height: 250px;
-        background-color: #24b989;
-        border-radius: 5px;
-        box-shadow: -3px 0 6px rgba(44, 44, 44, 0.55);
-        margin: 20px 0 20px 0px;
+    #events {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: start;
+        overflow: hidden;
+        margin-top: 30px;
     }
-    #conteudo1 div {
-        position: absolute;
-        width: 85%;
-        height: 100%;
-        background-color: #f8f8f8;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        right: 0;
+    #content li .event {
+        position: relative;
+        width: 350px;
+        background-color: #e2e2e263;
+        margin: 10px;
+        overflow: hidden;
+        transition: 0.5s;
+        border-radius: 10px;
+        box-shadow: -2px 2px 10px #c0c0c031;
+        
     }
-    #conteudo1 div div img {
-        position: absolute;
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-        top: 50%;
-        left: 2%;
-        transform: translateY(-50%);
+    #content li{
+        transition: 0.5s;
     }
-    #conteudo1 div div {
-        position: absolute;
-        left: 5px;
-        top: 5px;
-        width: 250px;
-        height: 64px;
-        background-color: #24b989 !important;
-        border-radius: 4px;
-        padding: 5px 5px;
+    #content li:hover{
+        margin-top: -10px;
     }
-    #conteudo1 div div p {
-        color: white;
-        position: absolute;
-        line-height: 1.5;
-        right: 16%;
-        top: 50%;
-        transform: translateY(-50%);
+    #content li:hover .event{
+        background-color: #fffffff5;
     }
-    #descOrigemUijaCode {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 98%;
-        height: 55%;
-        border-top: 1px solid #eee;
+    #content li .event .event-title {
+        display: block;
+        position: relative;
+        font-size: 2.5rem;
+        background: linear-gradient(to left, #21b0e4, #ff0062fd);
+        color: #fff;
         padding: 10px;
-        line-height: 1.5;
-        font-size: 16px;
+        text-align: center;
     }
-    #conteudo1 #pAnoFundacao {
-        font-size: 50px;
-        color: #f7f7f7;
-        font-weight: 200;
-        padding: 16px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    #conteudo2 {
-        position: absolute;
-        left: 5%;
-        width: 30%;
-        height: 360px;
-        background: #f8f8f8;
-        overflow: auto;
-        top: 310px;
-        box-shadow: -10px 13px 0 #24b989;
-    }
-    #conteudo2 h1 {
-        font-family: Roboto, Arial, Helvetica, sans-serif;
-        margin: 20px 0 20px 25px;
-        color: #201F4A;
-    }
-    #conteudo2 p {
-        margin: 0;
-        line-height: 1.5;
-        text-indent: 10px;
-        padding: 25px;
-    }
-    #divFaleConnosco {
-        position: absolute;
-        left: 40%;
-        width: 50%;
-        height: 140px;
-        background: transparent;
-        overflow: auto;
-        top: 310px;
-        justify-content: center;
-        padding: 15px;
-    }
-    #divFaleConnosco h1 {
-        text-align: left;
-        color: white;
+    #content li .event .event-paragraph {
+        display: block;
+        position: relative;
+        overflow-y: auto;
+        color: #131313;
+        padding: 10px 20px;
         margin-bottom: 10px;
     }
-    #divFaleConnosco a {
-        border-radius: 5px;
-        height: 40px;
-        width: 40px;
-        position: relative;
-        display: inline-block;
-        margin: 10px;
-        cursor: pointer;
-    }
-    #divFaleConnosco a:nth-child(1) {
-        margin-left: 0;
-    }
-    #divFaleConnosco a i {
-        color: white;
-        font-size: 35px;
-    }
-    #footer {
-        background-color: #000021 !important;
+    #footer{
+        margin-top: 0px !important;
     }
 }
 
-@media only screen and (max-device-width: 414px){
-    #divCabecalho{
-        height: 400px;
-    }
-    #divCabecalho p{
-        background-size: contain;
-        font-size: 3.5rem;
-    }
-    #conteudo1{
-        width: 98%;
-    }
-    #conteudo1 div {
-        border-radius: 5px;
-    }
-    #conteudo1 div {
-        width: 100%;
-        overflow: hidden;
-    }
-    #descOrigemUijaCode{
-        overflow: scroll;
-        padding: inherit;
-    }
-    #conteudo2 {
-        width: 90%;
-        box-shadow: -10px 13px 0 #24b989;
-    }
-    #conteudo1 div div {
-        background-color: #535353 !important;
-        width: 93.5%;
-    }
-    #conteudo1 div div p {
-        right: 28%;
-    }
-    #divFaleConnosco {
-        top: 700px;
-        height: 200px;
-        width: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-@media only screen and (min-width: 762px) and (max-width: 768px) {
-    #divCabecalho{
-        height: 400px;
-    }
-    #divCabecalho p{
-        background-size: contain;
-        font-size: 3.5rem;
-    }
-    #conteudo1 div {
-        width: 100%;
-        overflow: hidden;
-    }
-    #descOrigemUijaCode{
-        overflow: scroll;
-        padding: inherit;
-    }
-    #conteudo2 {
-        width: 90%;
-        box-shadow: -10px 13px 0 #24b989;
-    }
-    #divFaleConnosco {
-        top: 700px;
-        height: 200px;
-        width: 70%;
-        left: 38%;
-        transform: translateX(-50%);
-    }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-    #divCabecalho{
-        height: 600px;
-    }
-    #divCabecalho p{
-        background-size: contain;
-        font-size: 3.5rem;
-    }
-    #conteudo1 div {
-        width: 100%;
-        overflow: hidden;
-    }
-    #descOrigemUijaCode{
-        overflow: scroll;
-        padding: inherit;
-    }
-    #conteudo2 {
-        width: 90%;
-        box-shadow: -10px 13px 0 #24b989;
-    }
-    #divFaleConnosco {
-        top: 700px;
-        height: 200px;
-        width: 70%;
-        left: 39%;
-        transform: translateX(-50%);
-    }
-}
+@media only screen and (max-device-width: 414px) {}
+
+@media only screen and (min-width: 762px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
