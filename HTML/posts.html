@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../CSS/posts.css">
     <link rel="stylesheet" href="../CSS/menu.css">
     <link rel="stylesheet" href="../CSS/footer.css">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
     <title>Uija Code - Posts</title>
 </head>
 
@@ -23,6 +24,33 @@
                 </a>
                 <!--
                         -->
+                <h1 id="uija-code-h1-toggle-menu">Uija Code</h1>
+                <button id="btn-toggle-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="toggle-menu">
+                    <a href="../index.html">
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
+                            Inicio</li>
+                    </a>
+                    <!--
+                    --><a href="#">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">
+                            Posts</li>
+                    </a>
+                    <!--
+                    --><a href="cursos.html">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
+                    </a>
+                    <!--
+                    --><a href="quemsomos.html">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">
+                            Quem somos?</li>
+                    </a>
+                    <!--
+                    -->
+                </ul>
                 <ul id="listaDesordenada">
                     <a href="../index.html">
                         <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
@@ -58,15 +86,16 @@
         <a href="Posts/3_Post_como_programacao_pode_me_ajudar/HTML/index.html">
             <div class="divPostClass">
                 <figure>
-                    <img class="imgPostCover" src="Posts/3_Post_como_programacao_pode_me_ajudar/IMG/working-woman-technology-computer-7374.jpg"
-                    alt="">
+                    <img class="imgPostCover"
+                        src="Posts/3_Post_como_programacao_pode_me_ajudar/IMG/working-woman-technology-computer-7374.jpg"
+                        alt="">
                     <figcaption>Automatização de tarefas?</figcaption>
                 </figure>
                 <div class="divInformacoesPostagem">
                     <h2 class="h2TituloPostagem">Automatização de tarefas?</h2>
                     <div class="divInformacoesPublicadorPostagem">
                         <h3 class="h3NomePublicador">Autor: Eufránio Diogo</h3>
-                        <h3 class="h3DataPublicacao" >Data: 16/08/2020</h3>
+                        <h3 class="h3DataPublicacao">Data: 16/08/2020</h3>
                     </div>
                 </div>
             </div>
@@ -74,15 +103,16 @@
         <a href="Posts/2_Post_A_indecisao_dentro_da_area/HTML/index.html">
             <div class="divPostClass">
                 <figure>
-                    <img class="imgPostCover" src="Posts/2_Post_A_indecisao_dentro_da_area/IMG/photo-of-yellow-arrow-road-signage-977603-small.jpg"
-                    alt="">
+                    <img class="imgPostCover"
+                        src="Posts/2_Post_A_indecisao_dentro_da_area/IMG/photo-of-yellow-arrow-road-signage-977603-small.jpg"
+                        alt="">
                     <figcaption>A indecisão dentro da área!</figcaption>
                 </figure>
                 <div class="divInformacoesPostagem">
                     <h2 class="h2TituloPostagem">A indecisão dentro da área!</h2>
                     <div class="divInformacoesPublicadorPostagem">
                         <h3 class="h3NomePublicador">Autor: Eufránio Diogo</h3>
-                        <h3 class="h3DataPublicacao" >Data: 05/07/2020</h3>
+                        <h3 class="h3DataPublicacao">Data: 05/07/2020</h3>
                     </div>
                 </div>
             </div>
@@ -91,14 +121,14 @@
             <div class="divPostClass">
                 <figure>
                     <img class="imgPostCover" src="../IMG/black-love-and-black-heart-on-white-background-2733664.jpg"
-                    alt="">
+                        alt="">
                     <figcaption>Por que me apaixonei por programação</figcaption>
                 </figure>
                 <div class="divInformacoesPostagem">
                     <h2 class="h2TituloPostagem">Por que me apaixonei por programação?</h2>
                     <div class="divInformacoesPublicadorPostagem">
                         <h3 class="h3NomePublicador">Autor: Eufránio Diogo</h3>
-                        <h3 class="h3DataPublicacao" >Data: 27/06/2020</h3>
+                        <h3 class="h3DataPublicacao">Data: 27/06/2020</h3>
                     </div>
                 </div>
             </div>
@@ -106,19 +136,21 @@
     </main>
     <footer id="footer">
         <div id="divCompanyLogo">
-            <img src="../IMG/codingWhite.svg"> <p>Uija Code</p>
+            <img src="../IMG/codingWhite.svg">
+            <p>Uija Code</p>
         </div>
         <p>Feito com &#128147 por Uija Code</p>
         <ul>
             <li><a href="">Contactos </a></li>
-            <li><a href="">|  Sobre-nós </a></li>
-            <li><a href="">|  Direitos & Politicas</a></li>
+            <li><a href="">| Sobre-nós </a></li>
+            <li><a href="">| Direitos & Politicas</a></li>
         </ul>
     </footer>
     <script src="../JS/jquery.js"></script>
     <script src="../JS/actividades.js"></script>
     <script src="../JS/rodape.js"></script>
     <script src="../JS/overAndOutMenu.js"></script>
+    <script src="../JS/toggleMenu.js"></script>
 </body>
 
 </html>

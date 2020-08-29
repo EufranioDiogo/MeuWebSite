@@ -27,6 +27,15 @@ html{
         background-position-y: -200px;
         background-repeat: no-repeat;
     }
+    #toggle-menu{
+        display: none;
+    }
+    #btn-toggle-menu{
+        display: none;
+    }
+    #uija-code-h1-toggle-menu{
+        display: none;
+    }
     #divSlide div {
         position: absolute;
         left: 0;
@@ -357,9 +366,6 @@ html{
 @media only screen and (max-width: 414px) {
     #divMenu>a>p {
         visibility: hidden;
-    }
-    #listaDesordenada>a>li {
-        padding: 10px 5px;
     }
     #divConteudoPrincipal p:nth-child(2){
         padding: 7px 5px 20px 5px;

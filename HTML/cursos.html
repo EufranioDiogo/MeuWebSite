@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Uija Code - Primeiros Passos</title>
     <link rel="stylesheet" href="../CSS/universal.css">
     <link rel="stylesheet" href="../CSS/cursos.css">
     <link rel="stylesheet" href="../CSS/menu.css">
     <link rel="stylesheet" href="../CSS/footer.css">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+    <title>Uija Code - Primeiros Passos</title>
 </head>
 
 <body>
@@ -21,6 +22,33 @@
                 </a>
                 <!--
                         -->
+                <h1 id="uija-code-h1-toggle-menu">Uija Code</h1>
+                <button id="btn-toggle-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="toggle-menu">
+                    <a href="../index.html">
+                        <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
+                            Inicio</li>
+                    </a>
+                    <!--
+                    --><a href="posts.html">
+                        <li id="li2" class="itemDeMenu" onmouseover="overButton('li2')" onmouseout="outButton('li2')">
+                            Posts</li>
+                    </a>
+                    <!--
+                    --><a href="#">
+                        <li id="li3" class="itemDeMenu" onmouseover="overButton('li3')" onmouseout="outButton('li3')">
+                            Cursos</li>
+                    </a>
+                    <!--
+                    --><a href="quemsomos.html">
+                        <li id="li4" class="itemDeMenu" onmouseover="overButton('li4')" onmouseout="outButton('li4')">
+                            Quem somos?</li>
+                    </a>
+                    <!--
+                    -->
+                </ul>
                 <ul id="listaDesordenada">
                     <a href="../index.html">
                         <li id="li1" class="itemDeMenu" onmouseover="overButton('li1')" onmouseout="outButton('li1')">
@@ -76,6 +104,7 @@
     <script src="../JS/primeirosPassos.js"></script>
     <script src="../JS/rodape.js"></script>
     <script src="../JS/overAndOutMenu.js"></script>
+    <script src="../JS/toggleMenu.js"></script>
 </body>
 
 </html>
