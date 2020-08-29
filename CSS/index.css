@@ -218,7 +218,6 @@ html{
         text-align: center;
         opacity: 0;
         transition: 1s;
-        cursor: pointer;
         text-indent: 0 !important;
     }
     #contentorDeTextos:nth-child(n) {
@@ -434,7 +433,7 @@ html{
         width: 100% !important;
         display: flex;
         position: relative;
-        height: 540px;
+        height: 580px;
         justify-content: center !important;
         margin-top: 260px;
     }
