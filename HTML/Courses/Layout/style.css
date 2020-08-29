@@ -1,26 +1,26 @@
-@media only screen and (max-device-width: 1750px){
-    #mainConteiner{
+@media only screen and (max-device-width: 1750px) {
+    #mainConteiner {
         width: 100%;
         position: relative;
         background-color: #fff;
         top: 4.4rem;
     }
-    .coverCurso{
+    .coverCurso {
         position: relative;
         height: 15.0rem;
         background-image: url('../../../IMG/woman-sitting-while-operating-macbook-pro-1181676.jpg');
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size: cover; 
+        background-size: cover;
     }
-    .coverCurso #divForHead{
+    .coverCurso #divForHead {
         top: 0;
         position: absolute;
         height: 100%;
         width: 100%;
         background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
     }
-    #divForHead ul{
+    #divForHead ul {
         position: relative;
         display: flex;
         flex-wrap: wrap;
@@ -30,12 +30,12 @@
         transform: translateX(-50%);
         justify-content: center;
         border-bottom: 1px solid #e8e8e8;
-        z-index: 2;
+        z-index: 1;
     }
-    #divForHead ul li{
+    #divForHead ul li {
         padding: 0px 15px 0 15px;
     }
-    #divForHead ul li a{
+    #divForHead ul li a {
         text-align: center;
         text-decoration: none;
         font-size: 1.3rem;
@@ -43,10 +43,10 @@
         color: #141414 !important;
         font-family: Roboto, Arial, Helvetica, sans-serif;
     }
-    #divForHead ul li:hover{
+    #divForHead ul li:hover {
         border-bottom: 2px solid #2ea6d2;
     }
-    .coverCurso h1{
+    .coverCurso h1 {
         line-height: 15.0rem;
         text-align: center;
         font-size: 4rem;
@@ -55,18 +55,18 @@
         z-index: 1000;
         text-shadow: 3px 3px #00a7d1;
     }
-    #footer{
+    #footer {
         margin-top: 100px !important;
         position: relative !important;
         background: linear-gradient(to left, #008c96d2, #2ea6d2d2) !important;
     }
-    .divContent{
+    .divContent {
         position: relative;
         width: 65%;
         left: 50%;
         transform: translateX(-50%);
     }
-    .divContent h2{
+    .divContent h2 {
         margin: 15px 18px;
         font-size: 2.5rem;
     }
@@ -79,10 +79,10 @@
         margin-left: 18px;
         margin-right: 18px;
     }
-    .divContent h2:first-child{
+    .divContent h2:first-child {
         margin-top: 50px;
     }
-    .divVideos{
+    .divVideos {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -90,7 +90,7 @@
         flex-direction: row;
         justify-items: start;
     }
-    .videoLink{
+    .videoLink {
         display: block;
         position: relative;
         width: 275px;
@@ -99,7 +99,7 @@
         margin: 5px;
         left: 1.5%;
     }
-    .videoLink .videoDetails{
+    .videoLink .videoDetails {
         position: absolute;
         background: linear-gradient(to left, #008c96d2, #2ea6d2d2);
         width: 100%;
@@ -109,26 +109,26 @@
         cursor: pointer;
         transition: 0.5s;
     }
-    .videoLink .videoDetails:hover{
+    .videoLink .videoDetails:hover {
         opacity: 1;
     }
-    .videoDetails p{
+    .videoDetails p {
         color: #fff !important;
         line-height: 2;
         padding: 0;
         margin: 0;
         margin-left: 10px;
     }
-    #emptySpace{
+    #emptySpace {
         color: #fff;
     }
-    a:link, a:checked{
+    a:link, a:checked {
         color: #2ea6d2d2;
     }
-    a:hover, a:active{
+    a:hover, a:active {
         color: #0abeffd2;
     }
-    .linkVerMais{
+    .linkVerMais {
         display: block;
         position: relative;
         width: 96%;
@@ -145,10 +145,10 @@
         transform: translateX(-50%);
         margin-top: 25px;
     }
-    .linkVerMais:hover{
+    .linkVerMais:hover {
         background-color: #2ea6d2;
     }
-    .divSugestoes{
+    .divSugestoes {
         position: fixed;
         width: 100%;
         height: 0;
@@ -157,7 +157,7 @@
         bottom: 0;
         border-top: 1px solid #e8e8e8;
     }
-    .divSugestoes .divSugestoesConteiner{
+    .divSugestoes .divSugestoesConteiner {
         position: absolute;
         width: 90%;
         height: 80%;
@@ -167,7 +167,7 @@
         background-color: #fcfcfc;
         overflow: hidden;
     }
-    .divSugestoesConteiner .contentRow{
+    .divSugestoesConteiner .contentRow {
         display: flex;
         justify-content: start;
         height: 90%;
@@ -176,7 +176,7 @@
         position: absolute;
         left: 0;
     }
-    .linkSugestao{
+    .linkSugestao {
         position: relative;
         display: block;
         margin: 0 10px;
@@ -187,15 +187,15 @@
         background-repeat: no-repeat;
         border: 2px solid #e8e8e8;
     }
-    .sugestaoVideo{
+    .sugestaoVideo {
         background-size: 100% 100%;
     }
-    .sugestaoVideo i{
+    .sugestaoVideo i {
         color: #c40000;
         background-color: #fff;
         border-radius: 50%;
     }
-    .typeOfSugestion{
+    .typeOfSugestion {
         position: absolute;
         top: 0;
         right: 0;
@@ -203,14 +203,14 @@
         margin-right: -10px;
         z-index: 2;
     }
-    .sugestaoBook{
+    .sugestaoBook {
         background-size: contain;
         background-position: center;
     }
-    .sugestaoBook i{
+    .sugestaoBook i {
         color: #00a7d1;
     }
-    .linkSugestao p{
+    .linkSugestao p {
         position: absolute;
         bottom: 0;
         width: 95.6%;
@@ -221,10 +221,10 @@
         padding: 5px;
         font-size: 1.2rem;
     }
-    .linkSugestao:hover{
+    .linkSugestao:hover {
         margin-top: -10px;
     }
-    .button-angle{
+    .button-angle {
         position: absolute;
         border: none;
         width: 2.5%;
@@ -234,23 +234,23 @@
         background-color: #ffffff;
         cursor: pointer;
     }
-    .button-angle i{
+    .button-angle i {
         font-size: 50px;
         color: #495057;
         transition: 0.5s;
     }
-    .button-angle:hover i{
+    .button-angle:hover i {
         font-size: 30px;
     }
-    #button-angle-right{
+    #button-angle-right {
         border-radius: 0 10px 10px 0;
         right: 2.5%;
     }
-    #button-angle-left{
+    #button-angle-left {
         border-radius: 10px 0 0 10px;
         left: 2.5%;
     }
-    #button-angle-close{
+    #button-angle-close {
         position: absolute;
         width: 30px;
         height: 30px;
@@ -260,13 +260,49 @@
         cursor: pointer;
         background-color: #fff;
     }
-    #button-angle-close i{
+    #button-angle-close i {
         font-size: 2.0rem;
         color: #181818;
         transition: 0.5s;
     }
-
-    #button-angle-close:hover i{
+    #button-angle-close:hover i {
         color: #c40000;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .divContent {
+        position: relative;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #divForHead ul li {
+        padding: 0px 5px 0 5px !important;
+        border-left: 1px solid #e8e8e8;
+    }
+    #divForHead ul li:first-child {
+        padding-left: 0 !important;
+        border-left: none;
+    }
+    #divForHead ul li:last-child {
+        padding-right: 0 !important;
+    }
+    .divVideos {
+        justify-content: center;
+    }
+    .linkVerMais {
+        width: 45%;
+    }
+    .divSugestoesConteiner .contentRow {
+        flex-direction: column;
+        overflow-y: auto;
+        width: 75%;
+        align-items: center;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+    .linkSugestao {
+        flex-shrink: 0;
     }
 }

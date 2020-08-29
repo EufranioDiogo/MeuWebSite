@@ -27,6 +27,15 @@ html{
         background-position-y: -200px;
         background-repeat: no-repeat;
     }
+    #toggle-menu{
+        display: none;
+    }
+    #btn-toggle-menu{
+        display: none;
+    }
+    #uija-code-h1-toggle-menu{
+        display: none;
+    }
     #divSlide div {
         position: absolute;
         left: 0;
@@ -209,7 +218,6 @@ html{
         text-align: center;
         opacity: 0;
         transition: 1s;
-        cursor: pointer;
         text-indent: 0 !important;
     }
     #contentorDeTextos:nth-child(n) {
@@ -358,9 +366,6 @@ html{
     #divMenu>a>p {
         visibility: hidden;
     }
-    #listaDesordenada>a>li {
-        padding: 10px 5px;
-    }
     #divConteudoPrincipal p:nth-child(2){
         padding: 7px 5px 20px 5px;
     }
@@ -428,7 +433,7 @@ html{
         width: 100% !important;
         display: flex;
         position: relative;
-        height: 540px;
+        height: 580px;
         justify-content: center !important;
         margin-top: 260px;
     }

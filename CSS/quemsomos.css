@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 1750px) {
     body {
-        background: linear-gradient(to left, #ffffff, #e6e6e6);
+        background: linear-gradient(to left, #21b0e4, #ff0062fd);
     }
     #listaDesordenada a:nth-child(4) {
         border-bottom: 2px solid #2ea6d2;
@@ -94,7 +94,24 @@
     }
 }
 
-@media only screen and (max-device-width: 414px) {}
+@media only screen and (max-device-width: 414px) {
+    #footer{
+        margin-top: 220px !important;
+    }
+    .event-title{
+        font-size: 20px !important;
+    }
+    .event{
+        background-color: #ffffff !important;
+    }
+    #divCabecalho{
+        height: 55vh !important;
+    }
+    #divCabecalho p{
+        font-size: 4.0rem !important;
+        width: 100% !important;
+    }
+}
 
 @media only screen and (min-width: 762px) and (max-width: 768px) {}
 
